@@ -1,0 +1,21 @@
+# 排除源代码和测试
+src/
+tests/
+*.tsbuildinfo
+tsconfig.json
+nest-cli.json
+
+# 排除环境变量
+.env
+.env.local
+
+# 排除文档
+README.md
+*.md
+
+# 排除 node-gyp 缓存
+.node-gyp/
+
+# 排除 IDE
+.vscode/
+.idea/

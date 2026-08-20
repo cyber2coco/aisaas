@@ -64,8 +64,8 @@ async function bootstrap() {
   });
 
   const port = process.env.PORT || 3000;
-  await app.listen(port);
-  console.log(`后端服务运行在: http://localhost:${port}`);
+  await app.listen(port, '0.0.0.0');
+  console.log(`后端服务运行在: http://0.0.0.0:${port}`);
 }
 
 bootstrap();

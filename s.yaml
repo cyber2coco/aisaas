@@ -1,0 +1,50 @@
+edition: 1.0.0
+name: zhimei-ai-backend
+access: default
+
+vars:
+  region: cn-shenzhen
+  serviceName: zhimei-ai-service
+  functionName: zhimei-ai-function
+
+services:
+  zhimei-ai-backend:
+    component: fc
+    actions:
+      pre-deploy:
+        - run: npm install
+          path: ./backend
+        - run: npm run build
+          path: ./backend
+    props:
+      region: ${vars.region}
+      service:
+        name: ${vars.serviceName}
+        description: 智莓电商营销AI Agent后端服务
+      function:
+        name: ${vars.functionName}
+        description: NestJS backend for Zhimei AI Agent
+        runtime: custom
+        codeUri: ./backend
+        handler: index.handler
+        memorySize: 512
+        timeout: 30
+        cpu: 0.5
+        diskSize: 512
+        environmentVariables:
+          NODE_ENV: production
+          JWT_SECRET: zhimei-ai-secret-key-2026-abcdefg
+          QWEN_API_KEY: ""
+      triggers:
+        - name: httpTrigger
+          type: http
+          config:
+            authType: anonymous
+            methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - PATCH
+              - OPTIONS
+            disableURLInternet: false

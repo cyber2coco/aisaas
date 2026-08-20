@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIECS - AI智能电商SaaS平台</title>
+  <!-- 引入Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- 引入Font Awesome图标 -->
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- 引入Chart.js数据可视化 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <!-- 自定义配置 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#FF7D00',
+            dark: '#1E293B',
+            light: '#F8FAFC'
+          },
+          fontFamily: {
+            inter: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      },
+      darkMode: 'class'
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .sidebar-item {
+        @apply flex items-center gap-3 px-4 py-3 rounded-lg cursor-pointer transition-all hover:bg-primary/10 dark:hover:bg-primary/20;
+      }
+      .sidebar-item.active {
+        @apply bg-primary/10 text-primary font-medium dark:bg-primary/20;
+      }
+      .card-hover {
+        @apply hover:shadow-lg hover:-translate-y-1 transition-all duration-300;
+      }
+      .btn-primary {
+        @apply bg-primary text-white px-5 py-2 rounded-lg hover:bg-primary/90 transition-all;
+      }
+      .btn-secondary {
+        @apply bg-secondary text-white px-5 py-2 rounded-lg hover:bg-secondary/90 transition-all;
+      }
+    }
+  </style>
+</head>
+<body class="font-inter bg-gray-50 dark:bg-dark text-gray-800 dark:text-gray-200 min-h-screen flex flex-col">
+  <!-- 顶部导航栏 -->
+  <header class="bg-white dark:bg-gray-900 shadow-sm fixed top-0 left-0 right-0 z-30 h-16 px-4 flex items-center justify-between">
+    <!-- 移动端菜单按钮 -->
+    <button id="menuBtn" class="md:hidden text-xl p-2">
+      <i class="fa fa-bars"></i>
+    </button>
+    
+    <!-- Logo -->
+    <div class="flex items-center gap-2">
+      <span class="text-primary text-2xl"><i class="fa fa-robot"></i></span>
+      <h1 class="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">AIECS智能电商</h1>
+    </div>
+
+    <!-- 右侧功能区 -->
+    <div class="flex items-center gap-4">
+      <button id="themeToggle" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
+        <i class="fa fa-moon-o dark:hidden"></i>
+        <i class="fa fa-sun-o hidden dark:inline"></i>
+      </button>
+      <div class="relative">
+        <i class="fa fa-bell-o text-xl"></i>
+        <span class="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+      </div>
+      <div class="hidden sm:flex items-center gap-2">
+        <img src="https://picsum.photos/id/1005/40/40" class="w-8 h-8 rounded-full object-cover" alt="用户头像">
+        <span class="font-medium">商家管理员</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="flex flex-1 pt-16">
+    <!-- 侧边栏导航 -->
+    <aside id="sidebar" class="w-64 fixed left-0 top-16 bottom-0 bg-white dark:bg-gray-900 shadow-md z-20 transform -translate-x-full md:translate-x-0 transition-transform duration-300 overflow-y-auto">
+      <div class="p-4">
+        <div class="mb-6 px-4 py-2">
+          <h2 class="text-sm uppercase text-gray-500 dark:text-gray-400 font-semibold">主菜单</h2>
+        </div>
+        <nav class="space-y-1">
+          <div class="sidebar-item active" data-target="dashboard">
+            <i class="fa fa-tachometer text-lg w-5"></i>
+            <span>数据仪表盘</span>
+          </div>
+          <div class="sidebar-item" data-target="product">
+            <i class="fa fa-shopping-bag text-lg w-5"></i>
+            <span>AI选品上架</span>
+          </div>
+          <div class="sidebar-item" data-target="ucg">
+            <i class="fa fa-file-text-o text-lg w-5"></i>
+            <span>AI UCG生成</span>
+          </div>
+          <div class="sidebar-item" data-target="marketing">
+            <i class="fa fa-bullhorn text-lg w-5"></i>
+            <span>AI市场营销</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-bar-chart text-lg w-5"></i>
+            <span>数据分析</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-cog text-lg w-5"></i>
+            <span>系统设置</span>
+          </div>
+        </nav>
+      </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="flex-1 ml-0 md:ml-64 p-4 lg:p-6 bg-gray-50 dark:bg-dark">
+      <!-- 1. 数据仪表盘 -->
+      <section id="dashboard" class="block">
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold">数据仪表盘</h2>
+          <p class="text-gray-600 dark:text-gray-400">实时监控AI电商运营核心数据</p>
+        </div>
+
+        <!-- 数据卡片 -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-gray-500 dark:text-gray-400">AI选品成功率</p>
+                <h3 class="text-2xl font-bold mt-2">96.8%</h3>
+              </div>
+              <span class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                <i class="fa fa-check-circle"></i>
+              </span>
+            </div>
+            <p class="text-green-500 text-sm mt-3"><i class="fa fa-arrow-up"></i> 同比上月+12.3%</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-gray-500 dark:text-gray-400">UCG生成总量</p>
+                <h3 class="text-2xl font-bold mt-2">1,286</h3>
+              </div>
+              <span class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                <i class="fa fa-file-text"></i>
+              </span>
+            </div>
+            <p class="text-green-500 text-sm mt-3"><i class="fa fa-arrow-up"></i> 今日生成+42</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-gray-500 dark:text-gray-400">营销转化效率</p>
+                <h3 class="text-2xl font-bold mt-2">32.5%</h3>
+              </div>
+              <span class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600">
+                <i class="fa fa-line-chart"></i>
+              </span>
+            </div>
+            <p class="text-green-500 text-sm mt-3"><i class="fa fa-arrow-up"></i> 同比上月+8.7%</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="text-gray-500 dark:text-gray-400">上架商品总数</p>
+                <h3 class="text-2xl font-bold mt-2">358</h3>
+              </div>
+              <span class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+                <i class="fa fa-shopping-cart"></i>
+              </span>
+            </div>
+            <p class="text-green-500 text-sm mt-3"><i class="fa fa-arrow-up"></i> 本月上架+76</p>
+          </div>
+        </div>
+
+        <!-- 图表区域 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+            <h3 class="font-semibold mb-4">近7天AI功能使用趋势</h3>
+            <canvas id="trendChart" height="250"></canvas>
+          </div>
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+            <h3 class="font-semibold mb-4">功能使用占比</h3>
+            <canvas id="pieChart" height="250"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. AI智能选品上架 -->
+      <section id="product" class="hidden">
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold">AI智能选品上架</h2>
+          <p class="text-gray-600 dark:text-gray-400">AI大数据分析，一键选品+智能上架</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- 选品分析 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow lg:col-span-1">
+            <h3 class="font-semibold mb-4 flex items-center gap-2">
+              <i class="fa fa-search text-primary"></i>AI市场选品分析
+            </h3>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">选择品类</label>
+                <select class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent">
+                  <option>服饰鞋包</option>
+                  <option>3C数码</option>
+                  <option>家居用品</option>
+                  <option>美妆护肤</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">平台选择</label>
+                <div class="flex gap-2 flex-wrap">
+                  <button class="px-3 py-1 border border-primary text-primary rounded-full text-sm">淘宝</button>
+                  <button class="px-3 py-1 border border-gray-300 rounded-full text-sm">抖音</button>
+                  <button class="px-3 py-1 border border-gray-300 rounded-full text-sm">拼多多</button>
+                  <button class="px-3 py-1 border border-gray-300 rounded-full text-sm">京东</button>
+                </div>
+              </div>
+              <button class="btn-primary w-full flex items-center justify-center gap-2">
+                <i class="fa fa-magic"></i> AI智能分析选品
+              </button>
+            </div>
+            <div class="mt-5 p-3 bg-gray-50 dark:bg-gray-900 rounded-lg">
+              <p class="text-sm font-medium">AI推荐爆款：</p>
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">夏季冰丝防晒衣 → 热度指数：98</p>
+              <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">无线快充充电宝 → 热度指数：95</p>
+            </div>
+          </div>
+
+          <!-- 商品信息生成 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow lg:col-span-2">
+            <h3 class="font-semibold mb-4 flex items-center gap-2">
+              <i class="fa fa-edit text-primary"></i>智能商品信息生成
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">商品名称</label>
+                <input type="text" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="AI自动生成商品标题">
+              </div>
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">商品价格</label>
+                <input type="text" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="AI建议售价">
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">商品详情描述</label>
+              <textarea rows="4" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="AI自动生成高质量商品详情文案"></textarea>
+            </div>
+            <div class="mb-4">
+              <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">商品主图</label>
+              <div class="border-2 border-dashed border-gray-300 dark:border-gray-700 rounded-lg p-6 text-center">
+                <i class="fa fa-cloud-upload text-2xl text-gray-400"></i>
+                <p class="text-sm text-gray-500 mt-2">点击上传 / AI生成商品图</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <button class="btn-secondary flex-1 flex items-center justify-center gap-2">
+                <i class="fa fa-magic"></i> AI生成全部信息
+              </button>
+              <button class="btn-primary flex-1 flex items-center justify-center gap-2">
+                <i class="fa fa-upload"></i> 一键上架商品
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. AI UCG内容生成 -->
+      <section id="ucg" class="hidden">
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold">AI UCG内容生成</h2>
+          <p class="text-gray-600 dark:text-gray-400">自动生成买家秀、测评、短视频、图文素材</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- 内容类型选择 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+            <h3 class="font-semibold mb-4">选择UCG类型</h3>
+            <div class="space-y-3">
+              <button class="w-full p-3 border border-primary text-primary rounded-lg text-left flex items-center gap-2">
+                <i class="fa fa-star"></i> 买家秀评价
+              </button>
+              <button class="w-full p-3 border border-gray-300 rounded-lg text-left flex items-center gap-2">
+                <i class="fa fa-video-camera"></i> 短视频文案
+              </button>
+              <button class="w-full p-3 border border-gray-300 rounded-lg text-left flex items-center gap-2">
+                <i class="fa fa-file-image-o"></i> 图文测评
+              </button>
+              <button class="w-full p-3 border border-gray-300 rounded-lg text-left flex items-center gap-2">
+                <i class="fa fa-comment"></i> 问答种草
+              </button>
+            </div>
+            <div class="mt-5">
+              <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">内容风格</label>
+              <select class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent mb-3">
+                <option>真实种草</option>
+                <option>专业测评</option>
+                <option>幽默风趣</option>
+                <option>高端质感</option>
+              </select>
+              <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">字数限制</label>
+              <input type="number" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="200">
+            </div>
+          </div>
+
+          <!-- 生成参数 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+            <h3 class="font-semibold mb-4">内容生成参数</h3>
+            <div class="space-y-4">
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">关联商品</label>
+                <input type="text" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="输入商品名称/ID">
+              </div>
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">关键词</label>
+                <input type="text" class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="防晒,透气,舒适">
+              </div>
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">生成数量</label>
+                <div class="flex gap-2">
+                  <button class="flex-1 p-2 border border-gray-300 rounded-lg">1</button>
+                  <button class="flex-1 p-2 border border-primary text-primary rounded-lg">3</button>
+                  <button class="flex-1 p-2 border border-gray-300 rounded-lg">5</button>
+                </div>
+              </div>
+              <button class="btn-primary w-full">
+                <i class="fa fa-magic mr-2"></i> AI生成UCG内容
+              </button>
+            </div>
+          </div>
+
+          <!-- 内容预览 -->
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+            <h3 class="font-semibold mb-4 flex items-center justify-between">
+              <span>内容预览</span>
+              <span class="text-xs text-primary">已生成3条</span>
+            </h3>
+            <div class="space-y-3 h-[320px] overflow-y-auto pr-2">
+              <div class="p-3 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                <p class="text-sm">这款防晒衣真的绝了！冰丝面料超级舒服，穿上立马降温，夏天出门再也不怕晒黑了～版型显瘦不挑人，强烈推荐！</p>
+                <div class="flex justify-between text-xs text-gray-500 mt-2">
+                  <span>买家秀</span>
+                  <button class="text-primary">复制</button>
+                </div>
+              </div>
+              <div class="p-3 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                <p class="text-sm">实物和描述完全一致，冰丝材质透气不闷汗，防晒效果拉满！做工精细没有线头，性价比超高，已经推荐给朋友了！</p>
+                <div class="flex justify-between text-xs text-gray-500 mt-2">
+                  <span>买家秀</span>
+                  <button class="text-primary">复制</button>
+                </div>
+              </div>
+              <div class="p-3 bg-gray-50 dark:bg-gray-900 rounded-lg">
+                <p class="text-sm">夏季必备防晒神器！面料轻薄贴身，户外活动一整天都不闷热，颜色百搭超好看，闭眼入不亏！</p>
+                <div class="flex justify-between text-xs text-gray-500 mt-2">
+                  <span>买家秀</span>
+                  <button class="text-primary">复制</button>
+                </div>
+              </div>
+            </div>
+            <button class="w-full mt-3 p-2 border border-gray-300 rounded-lg text-sm">
+              <i class="fa fa-download mr-1"></i> 批量导出
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. AI市场营销 -->
+      <section id="marketing" class="hidden">
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold">AI市场营销</h2>
+          <p class="text-gray-600 dark:text-gray-400">全渠道AI智能营销，提升转化与曝光</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex flex-col items-center text-center">
+              <span class="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xl mb-3">
+                <i class="fa fa-ad"></i>
+              </span>
+              <h4 class="font-semibold">AI广告文案</h4>
+              <p class="text-sm text-gray-500 mt-2">自动生成高转化广告素材</p>
+              <button class="mt-3 px-4 py-1 border border-primary text-primary rounded-full text-sm">立即使用</button>
+            </div>
+          </div>
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex flex-col items-center text-center">
+              <span class="w-12 h-12 rounded-full bg-secondary/10 text-secondary flex items-center justify-center text-xl mb-3">
+                <i class="fa fa-weibo"></i>
+              </span>
+              <h4 class="font-semibold">社媒推广</h4>
+              <p class="text-sm text-gray-500 mt-2">全平台智能种草引流</p>
+              <button class="mt-3 px-4 py-1 border border-secondary text-secondary rounded-full text-sm">立即使用</button>
+            </div>
+          </div>
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex flex-col items-center text-center">
+              <span class="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xl mb-3">
+                <i class="fa fa-users"></i>
+              </span>
+              <h4 class="font-semibold">智能获客</h4>
+              <p class="text-sm text-gray-500 mt-2">AI精准定位潜在客户</p>
+              <button class="mt-3 px-4 py-1 border border-green-600 text-green-600 rounded-full text-sm">立即使用</button>
+            </div>
+          </div>
+          <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow card-hover">
+            <div class="flex flex-col items-center text-center">
+              <span class="w-12 h-12 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xl mb-3">
+                <i class="fa fa-trophy"></i>
+              </span>
+              <h4 class="font-semibold">活动策划</h4>
+              <p class="text-sm text-gray-500 mt-2">自动生成营销活动方案</p>
+              <button class="mt-3 px-4 py-1 border border-purple-600 text-purple-600 rounded-full text-sm">立即使用</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 营销文案生成 -->
+        <div class="bg-white dark:bg-gray-800 rounded-xl p-5 shadow">
+          <h3 class="font-semibold mb-4">AI营销文案生成器</h3>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="lg:col-span-1 space-y-4">
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">营销场景</label>
+                <select class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent">
+                  <option>商品促销</option>
+                  <option>新品上市</option>
+                  <option>活动引流</option>
+                  <option>品牌宣传</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">投放平台</label>
+                <select class="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent">
+                  <option>抖音/快手</option>
+                  <option>小红书</option>
+                  <option>微信朋友圈</option>
+                  <option>淘宝详情</option>
+                </select>
+              </div>
+              <button class="btn-primary w-full">
+                <i class="fa fa-magic mr-2"></i> 生成营销文案
+              </button>
+            </div>
+            <div class="lg:col-span-2">
+              <label class="block text-sm text-gray-600 dark:text-gray-400 mb-1">生成结果</label>
+              <textarea rows="8" class="w-full p-3 border border-gray-300 dark:border-gray-700 rounded-lg bg-transparent" placeholder="AI生成的高质量营销文案将展示在这里...">【夏季爆款】冰丝防晒衣，降温防晒两不误！透气不闷汗，显瘦显高，男女同款，限时特惠仅需99元！点击下单，夏日防晒一步到位！</textarea>
+              <div class="flex gap-3 mt-3">
+                <button class="btn-secondary flex-1">复制文案</button>
+                <button class="flex-1 border border-gray-300 rounded-lg py-2">一键投放</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- 交互脚本 -->
+  <script>
+    // 侧边栏切换
+    const menuBtn = document.getElementById('menuBtn');
+    const sidebar = document.getElementById('sidebar');
+    menuBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('-translate-x-full');
+    });
+
+    // 主题切换
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    });
+    // 初始化主题
+    if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+
+    // 菜单切换
+    const sidebarItems = document.querySelectorAll('.sidebar-item');
+    const sections = document.querySelectorAll('main > section');
+    sidebarItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // 移除所有激活状态
+        sidebarItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        // 隐藏所有板块
+        sections.forEach(sec => sec.classList.add('hidden'));
+        // 显示对应板块
+        const target = item.dataset.target;
+        if (target) {
+          document.getElementById(target).classList.remove('hidden');
+        }
+        // 移动端关闭侧边栏
+        if (window.innerWidth < 768) {
+          sidebar.classList.add('-translate-x-full');
+        }
+      });
+    });
+
+    // 初始化图表
+    window.onload = function() {
+      // 趋势图
+      const trendCtx = document.getElementById('trendChart').getContext('2d');
+      new Chart(trendCtx, {
+        type: 'line',
+        data: {
+          labels: ['1日', '2日', '3日', '4日', '5日', '6日', '7日'],
+          datasets: [{
+            label: 'AI选品',
+            data: [65, 78, 82, 90, 88, 95, 98],
+            borderColor: '#165DFF',
+            backgroundColor: 'rgba(22, 93, 255, 0.1)',
+            tension: 0.4,
+            fill: true
+          }, {
+            label: 'UCG生成',
+            data: [45, 60, 72, 75, 80, 85, 92],
+            borderColor: '#FF7D00',
+            backgroundColor: 'rgba(255, 125, 0, 0.1)',
+            tension: 0.4,
+            fill: true
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'top' }
+          }
+        }
+      });
+
+      // 饼图
+      const pieCtx = document.getElementById('pieChart').getContext('2d');
+      new Chart(pieCtx, {
+        type: 'doughnut',
+        data: {
+          labels: ['AI选品', 'UCG生成', 'AI营销', '商品管理'],
+          datasets: [{
+            data: [35, 30, 25, 10],
+            backgroundColor: ['#165DFF', '#FF7D00', '#36D399', '#A78BFA']
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'right' }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

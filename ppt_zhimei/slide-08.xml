@@ -1,0 +1,113 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="50" width="240" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>03 / 功能详解 · 模块二</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="85" width="700" height="45">
+      <content textType="title" fontSize="30" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>AIGC 内容工厂：图文视频一站式 AI 生成</p>
+      </content>
+    </shape>
+    <line startX="80" startY="145" endX="160" endY="145">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="165" width="600" height="25">
+      <content textType="body" fontSize="13" color="rgba(61,61,78,0.7)">
+        <p>接入6+生图模型与6+生视频模型，单SKU内容成本从500元降至5元以内</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="210" width="400" height="140">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="225" width="200" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>文生电商主图 · 多视角</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="260" width="360" height="75">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>输入商品描述，一键生成8种视角商品图：正面、侧面、背面、细节特写、场景图、包装图、白底图、 lifestyle图。支持Stable Diffusion、Midjourney、DALL-E 3、通义万相等6种模型切换，可自定义尺寸和生成数量。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="500" topLeftY="210" width="400" height="140">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="225" width="200" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>文生带货视频 · 多风格</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="260" width="360" height="75">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>AI生成5-30秒带货短视频，支持种草带货、产品展示、开箱测评、剧情演绎等6种风格。接入Runway、Pika、可灵、Sora等6种视频模型，自动生成分镜脚本、口播文案和话题标签，支持9:16/16:9/1:1三种比例。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="370" width="260" height="140">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="385" width="220" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>营销海报生成</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="420" width="220" height="75">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>节日促销、新品上市、品牌宣传、限时秒杀等6种海报风格，4种尺寸一键生成3张不同方案。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="360" topLeftY="370" width="260" height="140">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="380" topLeftY="385" width="220" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>AI 模特试穿</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="380" topLeftY="420" width="220" height="75">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>6种模特类型（女模/男模/童模/虚拟人/情侣/多人），6种拍摄场景，一键生成4张模特试穿图。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="640" topLeftY="370" width="260" height="140">
+      <fill>
+        <fillColor color="linear-gradient(135deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="660" topLeftY="390" width="220" height="40">
+      <content textType="title" fontSize="32" color="rgba(201,169,97,1)" bold="true" fontFamily="思源黑体">
+        <p>成本降 99%</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="660" topLeftY="435" width="220" height="60">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.8)" lineSpacing="multiple:1.6">
+        <p>单SKU全套内容（主图+视频+海报）</p>
+        <p>从 500+ 元降至 5 元以内</p>
+        <p>周期从 3-7 天缩短至 10 分钟</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>第二个核心模块是AIGC内容工厂，这也是智莓AI Agent最具竞争力的模块之一。传统电商做一套内容——主图、视频、海报——单SKU成本超过500元，还要等3到7天。我们的AIGC内容工厂把这个成本降到了5元以内，时间缩短到10分钟。具体来说有四大能力：第一，文生电商主图，输入商品描述一键生成8种视角，支持6种生图模型切换；第二，文生带货视频，5到30秒短视频，6种风格，6种视频模型，自动生成脚本和口播；第三，营销海报生成，6种风格4种尺寸；第四，AI模特试穿，不用找真人模特，6种模特类型6种场景一键生成。这四个能力加起来，基本覆盖了电商运营需要的所有视觉内容。</p>
+    </content>
+  </note>
+</slide>

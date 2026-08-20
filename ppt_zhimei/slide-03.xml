@@ -1,0 +1,110 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="50" width="160" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>01 / 行业洞察</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="85" width="700" height="50">
+      <content textType="title" fontSize="32" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>跨境电商进入 AI 驱动的新增长周期</p>
+      </content>
+    </shape>
+    <line startX="80" startY="150" endX="160" endY="150">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="175" width="420" height="120">
+      <content textType="body" fontSize="15" color="rgba(61,61,78,0.85)" lineSpacing="multiple:1.8">
+        <p>全球贸易数字化加速，跨境电商已成为外贸增长的核心引擎。与此同时，AI技术的成熟正在重塑电商运营的每一个环节——从选品、内容到营销，智能化已不再是可选项，而是生存的必选项。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="540" topLeftY="170" width="170" height="140">
+      <fill>
+        <fillColor color="rgba(74,25,66,0.06)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="560" topLeftY="185" width="140" height="50">
+      <content textType="title" fontSize="36" color="rgba(74,25,66,1)" bold="true" fontFamily="思源黑体">
+        <p>$6万亿</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="560" topLeftY="240" width="140" height="50">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>2025年全球跨境电商</p>
+        <p>市场规模预测</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="730" topLeftY="170" width="170" height="140">
+      <fill>
+        <fillColor color="rgba(201,169,97,0.1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="750" topLeftY="185" width="140" height="50">
+      <content textType="title" fontSize="36" color="rgba(168,130,50,1)" bold="true" fontFamily="思源黑体">
+        <p>15%+</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="750" topLeftY="240" width="140" height="50">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>中国跨境电商出口</p>
+        <p>年复合增长率</p>
+      </content>
+    </shape>
+    <line startX="80" startY="340" endX="900" endY="340">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="365" width="260" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(26,26,46,1)" bold="true">
+        <p>三大趋势正在重塑行业</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="410" width="40" height="30">
+      <content textType="headline" fontSize="20" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="125" topLeftY="412" width="230" height="60">
+      <content textType="body" fontSize="13" color="rgba(61,61,78,0.85)" lineSpacing="multiple:1.5">
+        <p><span bold="true" color="rgba(26,26,46,1)">新兴市场爆发</span></p>
+        <p>东南亚、拉美、中东增速领跑全球</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="380" topLeftY="410" width="40" height="30">
+      <content textType="headline" fontSize="20" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="425" topLeftY="412" width="230" height="60">
+      <content textType="body" fontSize="13" color="rgba(61,61,78,0.85)" lineSpacing="multiple:1.5">
+        <p><span bold="true" color="rgba(26,26,46,1)">内容电商崛起</span></p>
+        <p>TikTok、短视频成为核心增长渠道</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="410" width="40" height="30">
+      <content textType="headline" fontSize="20" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="725" topLeftY="412" width="200" height="60">
+      <content textType="body" fontSize="13" color="rgba(61,61,78,0.85)" lineSpacing="multiple:1.5">
+        <p><span bold="true" color="rgba(26,26,46,1)">AI全面渗透</span></p>
+        <p>智能化运营成为核心竞争力</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="505" width="500" height="20">
+      <content textType="caption" fontSize="10" color="rgba(61,61,78,0.4)">
+        <p>数据来源：eMarketer、海关总署、艾瑞咨询公开报告整理</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>我们先看行业大背景。全球跨境电商市场规模预计2025年将突破6万亿美元，中国跨境电商出口保持15%以上的年复合增长率。更重要的是三个结构性趋势：第一，东南亚、拉美、中东等新兴市场正在爆发；第二，以TikTok为代表的内容电商成为新的增长引擎；第三，AI技术正在全面渗透电商运营的各个环节。这三个趋势叠加，意味着谁能率先用好AI，谁就能在新一轮增长中占据先机。</p>
+    </content>
+  </note>
+</slide>

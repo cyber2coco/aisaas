@@ -1,0 +1,129 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="40" width="280" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>03 / 功能详解 · 模块三+四</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="72" width="700" height="40">
+      <content textType="title" fontSize="28" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>智能营销 + 数据洞察：从获客到决策的闭环</p>
+      </content>
+    </shape>
+    <line startX="80" startY="125" endX="160" endY="125">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="rect" topLeftX="80" topLeftY="150" width="400" height="360">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="168" width="360" height="30">
+      <content textType="sub-headline" fontSize="18" color="rgba(74,25,66,1)" bold="true">
+        <p>模块三：AI 智能营销</p>
+      </content>
+    </shape>
+    <line startX="100" startY="205" endX="140" endY="205">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="100" topLeftY="220" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>多语言营销文案生成</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="245" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>支持8种语言，覆盖商品描述、广告文案、社媒帖子、邮件营销等10+场景，一键生成多版本A/B测试素材。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="290" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>广告素材智能产出</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="315" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>根据平台特性自动适配Facebook、Google、TikTok、Instagram等渠道的广告素材规格与文案风格。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="360" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>KOL 智能匹配与建联</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="385" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>基于品类、目标市场、预算，智能匹配各层级KOL/KOC，自动生成合作邀约话术与效果评估框架。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="440" width="360" height="50">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">价值：</span>营销素材产出效率提升10倍</p>
+        <p><span bold="true">覆盖：</span>8种语言 × 10+主流渠道</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="500" topLeftY="150" width="400" height="360">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="168" width="360" height="30">
+      <content textType="sub-headline" fontSize="18" color="rgba(74,25,66,1)" bold="true">
+        <p>模块四：市场分析洞察</p>
+      </content>
+    </shape>
+    <line startX="520" startY="205" endX="560" endY="205">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="520" topLeftY="220" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>店铺商品周报</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="245" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>自动生成经营数据、商品排行、爆款分析、流量来源、用户画像与下周运营建议，告别手工汇总。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="290" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>市场货盘分析</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="315" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>市场规模、价格带分布、热销属性、竞品TOP5分析，输出选品建议、备货建议与利润测算。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="360" width="360" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>KOL 分析 + UCG 内容分析</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="385" width="360" height="35">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.5">
+        <p>KOL分级标准、带货能力评估、合作建议与筛选SOP；UCG正负评价关键词、热门话题、用户画像与营销建议。</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="440" width="360" height="50">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">价值：</span>决策从"拍脑袋"到"看数据"</p>
+        <p><span bold="true">效率：</span>周报生成从2天到5分钟</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>接下来是模块三和模块四，我放在一起讲。模块三是AI智能营销，解决"怎么卖"的问题。它有三个核心能力：第一，多语言营销文案生成，支持8种语言，覆盖商品描述、广告文案、社媒帖子、邮件营销等10多个场景，还能一键生成多版本做A/B测试；第二，广告素材智能产出，根据Facebook、Google、TikTok、Instagram等不同平台的特性自动适配素材规格和文案风格；第三，KOL智能匹配与建联，根据品类、目标市场和预算自动匹配各层级KOL，还能生成合作邀约话术。营销素材产出效率整体提升10倍。
+
+模块四是市场分析洞察，解决"怎么决策"的问题。它也有四大分析能力：第一，店铺商品周报，自动生成经营数据、商品排行、爆款分析、流量来源、用户画像和下周建议，原来花2天做的周报现在5分钟搞定；第二，市场货盘分析，包括市场规模、价格带、热销属性、竞品分析，输出选品和备货建议；第三，KOL分析，包括分级标准、带货能力评估、合作建议和筛选SOP；第四，UCG内容分析，挖掘正负评价关键词、热门话题和用户画像。这四个模块加起来，让决策从"拍脑袋"变成"看数据"。</p>
+    </content>
+  </note>
+</slide>

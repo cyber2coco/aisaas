@@ -1,0 +1,142 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="40" width="200" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>03 / 功能详解</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="72" width="700" height="45">
+      <content textType="title" fontSize="30" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>五大功能模块，覆盖电商运营全链路</p>
+      </content>
+    </shape>
+    <line startX="80" startY="128" endX="160" endY="128">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="ellipse" topLeftX="400" topLeftY="200" width="160" height="160">
+      <fill>
+        <fillColor color="linear-gradient(135deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="245" width="160" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true" textAlign="center">
+        <p>智莓 AI Agent</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="400" topLeftY="280" width="160" height="40">
+      <content textType="body" fontSize="11" color="rgba(255,255,255,0.7)" textAlign="center" lineSpacing="multiple:1.4">
+        <p>跨境电商</p>
+        <p>全链路智能引擎</p>
+      </content>
+    </shape>
+    <line startX="280" startY="210" endX="400" endY="260">
+      <border color="rgba(74,25,66,0.2)" width="1"/>
+    </line>
+    <line startX="680" startY="210" endX="560" endY="260">
+      <border color="rgba(74,25,66,0.2)" width="1"/>
+    </line>
+    <line startX="200" startY="380" endX="400" endY="300">
+      <border color="rgba(74,25,66,0.2)" width="1"/>
+    </line>
+    <line startX="720" startY="375" endX="560" endY="295">
+      <border color="rgba(74,25,66,0.2)" width="1"/>
+    </line>
+    <line startX="480" startY="430" endX="480" endY="360">
+      <border color="rgba(74,25,66,0.2)" width="1"/>
+    </line>
+    <shape type="rect" topLeftX="100" topLeftY="155" width="180" height="90">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.15)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="115" topLeftY="168" width="150" height="24">
+      <content textType="sub-headline" fontSize="15" color="rgba(74,25,66,1)" bold="true">
+        <p>AI 智能选品</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="115" topLeftY="195" width="150" height="45">
+      <content textType="body" fontSize="10" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.4">
+        <p>市场趋势 · 爆品挖掘</p>
+        <p>AI生成信息 · 一键上架</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="680" topLeftY="155" width="180" height="90">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.15)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="695" topLeftY="168" width="150" height="24">
+      <content textType="sub-headline" fontSize="15" color="rgba(74,25,66,1)" bold="true">
+        <p>AIGC 内容工厂</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="695" topLeftY="195" width="150" height="40">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.4">
+        <p>电商主图 · 带货视频</p>
+        <p>营销海报 · AI模特试穿</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="60" topLeftY="345" width="180" height="90">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.15)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="75" topLeftY="358" width="150" height="24">
+      <content textType="sub-headline" fontSize="15" color="rgba(74,25,66,1)" bold="true">
+        <p>AI 智能营销</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="75" topLeftY="385" width="150" height="40">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.4">
+        <p>多语言营销文案 · 广告素材</p>
+        <p>社媒内容 · 投放优化建议</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="720" topLeftY="345" width="180" height="90">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.15)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="735" topLeftY="358" width="150" height="24">
+      <content textType="sub-headline" fontSize="15" color="rgba(74,25,66,1)" bold="true">
+        <p>市场分析洞察</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="735" topLeftY="385" width="150" height="40">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.4">
+        <p>店铺周报 · 货盘分析</p>
+        <p>KOL分析 · UCG内容分析</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="390" topLeftY="445" width="180" height="70">
+      <fill>
+        <fillColor color="rgba(201,169,97,0.12)"/>
+      </fill>
+      <border color="rgba(201,169,97,0.4)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="405" topLeftY="458" width="150" height="24">
+      <content textType="sub-headline" fontSize="15" color="rgba(168,130,50,1)" bold="true" textAlign="center">
+        <p>多平台统一管理</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="390" topLeftY="483" width="180" height="24">
+      <content textType="body" fontSize="10" color="rgba(61,61,78,0.7)" textAlign="center" wrap="false">
+        <p>10+平台 · 8种语言 · 数据互通</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>这是智莓AI Agent的整体架构。中心是我们的AI引擎，向外辐射五大功能模块。左上角是AI智能选品，帮你找到爆款、生成商品信息、一键多平台上架；右上角是AIGC内容工厂，主图、视频、海报、模特图全部AI生成；左下角是AI智能营销，多语言文案、广告素材、社媒内容一键产出；右下角是市场分析洞察，店铺周报、货盘分析、KOL分析、UCG分析全覆盖；底部是多平台统一管理层，对接10多个主流平台，支持8种语言，数据全互通。这五个模块不是孤立的，而是形成了一个从发现机会到创造内容、从推广获客到数据复盘的完整闭环。</p>
+    </content>
+  </note>
+</slide>

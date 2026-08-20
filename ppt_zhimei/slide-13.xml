@@ -1,0 +1,150 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="40" width="280" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>06 / 应用场景 · 合作模式</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="72" width="700" height="40">
+      <content textType="title" fontSize="28" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>谁在用智莓？以及我们如何合作</p>
+      </content>
+    </shape>
+    <line startX="80" startY="125" endX="160" endY="125">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="150" width="400" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>典型应用场景</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="185" width="400" height="75">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="197" width="360" height="22">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>跨境品牌出海</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="222" width="360" height="30">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>多平台多语言一键铺货，AIGC快速产出本地化内容，数据驱动选品与营销决策</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="270" width="400" height="75">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="282" width="360" height="22">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>电商代运营 / TP 服务商</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="307" width="360" height="30">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>一人管理多店铺多品牌，内容产能提升10倍，服务更多客户而不增加人力成本</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="355" width="400" height="75">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="367" width="360" height="22">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>工厂 / 供应链转型</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="392" width="360" height="30">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>从代工到自主品牌，AI辅助选品定价、内容生产与渠道铺设，降低转型门槛</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="440" width="400" height="75">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="452" width="360" height="22">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>个人创业者 / 小团队</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="477" width="360" height="30">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.7)" lineSpacing="multiple:1.5">
+        <p>极低启动成本，AI充当你的运营团队，一个人也能玩转多平台跨境电商</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="150" width="380" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>灵活的合作模式</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="520" topLeftY="185" width="380" height="100">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="197" width="340" height="24">
+      <content textType="body" fontSize="14" color="rgba(26,26,46,1)" bold="true">
+        <p>SaaS 订阅模式</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="225" width="340" height="50">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>按月/按年订阅，基础版、专业版、企业版三档可选，开箱即用，适合大多数商家。支持免费试用7天。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="520" topLeftY="295" width="380" height="100">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="307" width="340" height="24">
+      <content textType="body" fontSize="14" color="rgba(26,26,46,1)" bold="true">
+        <p>定制化部署</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="335" width="340" height="50">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>支持私有化部署、专属模型微调、定制功能开发，适合中大型企业与特殊数据合规需求。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="520" topLeftY="405" width="380" height="110">
+      <fill>
+        <fillColor color="linear-gradient(135deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="420" width="340" height="24">
+      <content textType="body" fontSize="14" color="rgba(201,169,97,1)" bold="true">
+        <p>渠道合作伙伴计划</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="450" width="340" height="55">
+      <content textType="body" fontSize="11" color="rgba(255,255,255,0.8)" lineSpacing="multiple:1.6">
+        <p>面向代运营商、培训机构、行业协会，提供高比例分成、专属客户成功支持与联合品牌营销资源。</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>最后我们来看谁适合用智莓，以及怎么和我们合作。典型应用场景有四类：第一，跨境品牌出海，多平台多语言一键铺货，AIGC快速产出本地化内容；第二，电商代运营和TP服务商，一人管理多店铺多品牌，内容产能提升10倍，可以服务更多客户而不增加人力；第三，工厂和供应链转型，从代工到做自主品牌，AI帮你降低转型门槛；第四，个人创业者和小团队，极低启动成本，AI就是你的运营团队，一个人也能玩转多平台跨境电商。
+
+合作模式也很灵活。第一种是SaaS订阅，按月按年，基础版、专业版、企业版三档，支持7天免费试用，适合大多数商家。第二种是定制化部署，支持私有化部署、专属模型微调、定制功能开发，适合中大型企业和有特殊数据合规需求的客户。第三种是渠道合作伙伴计划，面向代运营商、培训机构、行业协会，提供高比例分成、专属客户成功支持和联合品牌营销资源。无论你是哪种规模、哪种类型的客户，我们都有适合你的合作方式。</p>
+    </content>
+  </note>
+</slide>

@@ -1,0 +1,1762 @@
+<presentation id="X1Yas6C5ClVsPNdXREZc3ZENnEb" xmlns="https://www.larkoffice.com/sml/2.0" width="960" height="540">
+  <title>智莓电商营销AI Agent产品业务介绍</title>
+  <theme>
+    <textStyles>
+      <headline fontColor="rgba(31, 35, 41, 1)"/>
+      <sub-headline fontColor="rgba(31, 35, 41, 1)"/>
+      <body fontColor="rgba(31, 35, 41, 1)"/>
+      <caption fontColor="rgba(155, 158, 162, 1)" fontSize="14"/>
+    </textStyles>
+  </theme>
+  <slide id="pWW">
+    <style/>
+    <data>
+      <img id="bdv" src="FleUbPsHwoa8P6xUSQZc1VYHnGh" width="960" height="540" topLeftX="0" topLeftY="0">
+        <crop leftOffset="0" rightOffset="0" topOffset="0" bottomOffset="0"/>
+      </img>
+      <shape width="960" height="540" topLeftX="0" topLeftY="0" presetHandlers="0" type="rect" id="bdX">
+        <fill>
+          <fillColor color="linear-gradient(135deg,rgba(26, 10, 30, 0.75) 0%,rgba(74, 25, 66, 0.55) 50%,rgba(123, 45, 91, 0.4) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="800" height="60" topLeftX="80" topLeftY="160" type="text" id="bdQ">
+        <content textType="caption" fontSize="16" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="4">
+          <p>ZHIMEI AI · CROSS-BORDER E-COMMERCE</p>
+        </content>
+      </shape>
+      <shape width="800" height="100" topLeftX="80" topLeftY="210" type="text" id="bdj">
+        <content textType="title" fontSize="52" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" letterSpacing="2">
+          <p>智莓电商营销 AI Agent</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="80" topLeftY="310" type="text" id="bdd">
+        <content textType="sub-headline" fontSize="22" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.851)" bold="true" letterSpacing="1">
+          <p>让 AI 成为你的跨境电商全域增长引擎</p>
+        </content>
+      </shape>
+      <line id="bdA" startX="80" startY="380" endX="180.00499987500626" endY="380">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="500" height="30" topLeftX="80" topLeftY="400" type="text" id="bdE">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.702)">
+          <p>智能选品 · AIGC内容工厂 · 全域营销 · 数据洞察 · 多语言全球化</p>
+        </content>
+      </shape>
+      <shape width="400" height="24" topLeftX="80" topLeftY="480" type="text" id="bdc">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.502)">
+          <p>智莓科技 ZHIMEI TECH · 2026</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bdu">
+      <content>
+        <p>各位好，今天我为大家介绍智莓科技倾力打造的电商营销AI Agent产品。在跨境电商竞争日益激烈的今天，我们希望通过AI技术，帮助商家实现从选品、内容生成、营销推广到数据分析的全链路智能化升级。接下来我将从行业现状、产品功能、技术优势和合作模式四个维度，为大家详细解读这款产品。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWF">
+    <style>
+      <fill id="fWF">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="300" height="80" topLeftX="80" topLeftY="60" type="text" id="bdL">
+        <content textType="title" fontSize="48" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>目录</p>
+        </content>
+      </shape>
+      <shape width="300" height="30" topLeftX="80" topLeftY="130" type="text" id="bdl">
+        <content textType="caption" fontSize="14" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3">
+          <p>CONTENTS</p>
+        </content>
+      </shape>
+      <line id="bdq" startX="80" startY="175" endX="200.00416659433122" endY="175">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="350" height="60" topLeftX="80" topLeftY="420" type="text" id="bdw">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)" lineSpacing="multiple:1.6">
+          <p>从行业趋势到产品落地，</p>
+          <p>全方位解读智莓AI Agent的商业价值</p>
+        </content>
+      </shape>
+      <shape width="60" height="40" topLeftX="440" topLeftY="70" type="text" id="bdZ">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="72" type="text" id="bdi">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>行业洞察</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="100" type="text" id="bdP">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>跨境电商的机遇与挑战</p>
+        </content>
+      </shape>
+      <line id="bdM" startX="440" startY="135" endX="900.0010869552375" endY="135">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="60" height="40" topLeftX="440" topLeftY="150" type="text" id="bdt">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="152" type="text" id="bdz">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>产品概览</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="180" type="text" id="bdF">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>智莓AI Agent核心能力与定位</p>
+        </content>
+      </shape>
+      <line id="bda" startX="440" startY="215" endX="900.0010869552375" endY="215">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="60" height="40" topLeftX="440" topLeftY="230" type="text" id="bdJ">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="232" type="text" id="bdp">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>功能详解</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="260" type="text" id="bdb">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>五大模块实现电商全链路智能化</p>
+        </content>
+      </shape>
+      <line id="bdf" startX="440" startY="295" endX="900.0010869552375" endY="295">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="60" height="40" topLeftX="440" topLeftY="310" type="text" id="bdY">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>04</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="312" type="text" id="bdn">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>技术底座</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="340" type="text" id="bdV">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>AI模型矩阵与多语言全球化能力</p>
+        </content>
+      </shape>
+      <line id="bdO" startX="440" startY="375" endX="900.0010869552375" endY="375">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="60" height="40" topLeftX="440" topLeftY="390" type="text" id="bdC">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>05</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="392" type="text" id="bdH">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>客户价值</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="420" type="text" id="bdm">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>效率提升与成本优化的量化收益</p>
+        </content>
+      </shape>
+      <line id="bdG" startX="440" startY="455" endX="900.0010869552375" endY="455">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="60" height="40" topLeftX="440" topLeftY="470" type="text" id="bdr">
+        <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>06</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="510" topLeftY="472" type="text" id="bds">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>合作模式</p>
+        </content>
+      </shape>
+      <shape width="380" height="20" topLeftX="510" topLeftY="500" type="text" id="bdT">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)">
+          <p>灵活的商业合作与服务方案</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bdx">
+      <content>
+        <p>今天的分享将分为六个部分。首先我们来看跨境电商行业的现状和痛点，然后介绍智莓AI Agent的产品定位和核心能力，接着会详细拆解五大功能模块，之后聊聊我们的技术底座和多语言能力，再用数据说话展示客户能获得的实际价值，最后介绍我们的合作模式。整个过程大约20分钟，欢迎大家随时提问。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWz">
+    <style>
+      <fill id="fWz">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="160" height="30" topLeftX="80" topLeftY="50" type="text" id="buc">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>01 / 行业洞察</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="80" topLeftY="85" type="text" id="buZ">
+        <content textType="title" fontSize="32" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>跨境电商进入 AI 驱动的新增长周期</p>
+        </content>
+      </shape>
+      <line id="bub" startX="80" startY="150" endX="160.00624975587843" endY="150">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="420" height="120" topLeftX="80" topLeftY="175" type="text" id="bus">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.851)" lineSpacing="multiple:1.8">
+          <p>全球贸易数字化加速，跨境电商已成为外贸增长的核心引擎。与此同时，AI技术的成熟正在重塑电商运营的每一个环节——从选品、内容到营销，智能化已不再是可选项，而是生存的必选项。</p>
+        </content>
+      </shape>
+      <shape width="170" height="140" topLeftX="540" topLeftY="170" presetHandlers="0" type="rect" id="bum">
+        <fill>
+          <fillColor color="rgba(74, 25, 66, 0.06)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="140" height="50" topLeftX="560" topLeftY="185" type="text" id="buV">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>$6万亿</p>
+        </content>
+      </shape>
+      <shape width="140" height="50" topLeftX="560" topLeftY="240" type="text" id="buq">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>2025年全球跨境电商</p>
+          <p>市场规模预测</p>
+        </content>
+      </shape>
+      <shape width="170" height="140" topLeftX="730" topLeftY="170" presetHandlers="0" type="rect" id="buf">
+        <fill>
+          <fillColor color="rgba(201, 169, 97, 0.1)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="140" height="50" topLeftX="750" topLeftY="185" type="text" id="buY">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(168, 130, 50, 1)" bold="true">
+          <p>15%+</p>
+        </content>
+      </shape>
+      <shape width="140" height="50" topLeftX="750" topLeftY="240" type="text" id="buj">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>中国跨境电商出口</p>
+          <p>年复合增长率</p>
+        </content>
+      </shape>
+      <line id="but" startX="80" startY="340" endX="900.0006097558709" endY="340">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="260" height="30" topLeftX="80" topLeftY="365" type="text" id="buO">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>三大趋势正在重塑行业</p>
+        </content>
+      </shape>
+      <shape width="40" height="30" topLeftX="80" topLeftY="410" type="text" id="bui">
+        <content textType="headline" fontSize="20" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="230" height="60" topLeftX="125" topLeftY="412" type="text" id="buz">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.851)">
+          <p><strong><span color="rgba(26, 26, 46, 1)">新兴市场爆发</span></strong></p>
+          <p>东南亚、拉美、中东增速领跑全球</p>
+        </content>
+      </shape>
+      <shape width="40" height="30" topLeftX="380" topLeftY="410" type="text" id="buC">
+        <content textType="headline" fontSize="20" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="230" height="60" topLeftX="425" topLeftY="412" type="text" id="buQ">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.851)">
+          <p><strong><span color="rgba(26, 26, 46, 1)">内容电商崛起</span></strong></p>
+          <p>TikTok、短视频成为核心增长渠道</p>
+        </content>
+      </shape>
+      <shape width="40" height="30" topLeftX="680" topLeftY="410" type="text" id="bul">
+        <content textType="headline" fontSize="20" fontFamily="思源宋体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="200" height="60" topLeftX="725" topLeftY="412" type="text" id="bua">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.851)">
+          <p><strong><span color="rgba(26, 26, 46, 1)">AI全面渗透</span></strong></p>
+          <p>智能化运营成为核心竞争力</p>
+        </content>
+      </shape>
+      <shape width="500" height="20" topLeftX="80" topLeftY="505" type="text" id="buG">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.4)">
+          <p>数据来源：eMarketer、海关总署、艾瑞咨询公开报告整理</p>
+        </content>
+      </shape>
+    </data>
+    <note id="buJ">
+      <content>
+        <p>我们先看行业大背景。全球跨境电商市场规模预计2025年将突破6万亿美元，中国跨境电商出口保持15%以上的年复合增长率。更重要的是三个结构性趋势：第一，东南亚、拉美、中东等新兴市场正在爆发；第二，以TikTok为代表的内容电商成为新的增长引擎；第三，AI技术正在全面渗透电商运营的各个环节。这三个趋势叠加，意味着谁能率先用好AI，谁就能在新一轮增长中占据先机。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWE">
+    <style>
+      <fill id="fWE">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="160" height="30" topLeftX="80" topLeftY="50" type="text" id="bdB">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>01 / 行业洞察</p>
+        </content>
+      </shape>
+      <shape width="700" height="50" topLeftX="80" topLeftY="85" type="text" id="bdD">
+        <content textType="title" fontSize="32" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>传统电商运营的四大核心痛点</p>
+        </content>
+      </shape>
+      <line id="bud" startX="80" startY="150" endX="160.00624975587843" endY="150">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="600" height="30" topLeftX="80" topLeftY="170" type="text" id="buE">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>人力密集、效率低下、成本高企——跨境电商运营正面临结构性挑战</p>
+        </content>
+      </shape>
+      <shape width="400" height="130" topLeftX="80" topLeftY="225" presetHandlers="0" type="rect" id="bdK">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="50" height="40" topLeftX="100" topLeftY="240" type="text" id="bdo">
+        <content textType="title" fontSize="32" fontFamily="思源宋体" color="rgba(74, 25, 66, 0.149)" bold="true">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="300" height="28" topLeftX="155" topLeftY="245" type="text" id="bdh">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>选品难 · 命中率低</p>
+        </content>
+      </shape>
+      <shape width="300" height="60" topLeftX="155" topLeftY="280" type="text" id="bde">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>依赖个人经验拍脑袋决策，爆款命中率不足10%；市场趋势研判滞后，库存积压风险高，新品测试周期长、成本高。</p>
+        </content>
+      </shape>
+      <shape width="400" height="130" topLeftX="500" topLeftY="225" presetHandlers="0" type="rect" id="buu">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="50" height="40" topLeftX="520" topLeftY="240" type="text" id="buX">
+        <content textType="title" fontSize="32" fontFamily="思源宋体" color="rgba(74, 25, 66, 0.149)" bold="true">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="300" height="28" topLeftX="575" topLeftY="245" type="text" id="bdk">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>内容贵 · 难以规模化</p>
+        </content>
+      </shape>
+      <shape width="300" height="60" topLeftX="575" topLeftY="280" type="text" id="bdy">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>主图拍摄、视频制作、文案撰写单SKU成本超500元，周期3-7天；多平台多语言内容适配成本倍增，难以快速铺量。</p>
+        </content>
+      </shape>
+      <shape width="400" height="130" topLeftX="80" topLeftY="375" presetHandlers="0" type="rect" id="bdg">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="50" height="40" topLeftX="100" topLeftY="390" type="text" id="bdR">
+        <content textType="title" fontSize="32" fontFamily="思源宋体" color="rgba(74, 25, 66, 0.149)" bold="true">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="300" height="28" topLeftX="155" topLeftY="395" type="text" id="buA">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>营销累 · 人力成本高</p>
+        </content>
+      </shape>
+      <shape width="300" height="60" topLeftX="155" topLeftY="430" type="text" id="bdW">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>多平台运营、多语言客服、KOL对接消耗大量人力；投放效果难以量化归因，ROI优化依赖人工试错，反应速度慢。</p>
+        </content>
+      </shape>
+      <shape width="400" height="130" topLeftX="500" topLeftY="375" presetHandlers="0" type="rect" id="bdN">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="50" height="40" topLeftX="520" topLeftY="390" type="text" id="bdS">
+        <content textType="title" fontSize="32" fontFamily="思源宋体" color="rgba(74, 25, 66, 0.149)" bold="true">
+          <p>04</p>
+        </content>
+      </shape>
+      <shape width="300" height="28" topLeftX="575" topLeftY="395" type="text" id="bdI">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>数据散 · 决策滞后</p>
+        </content>
+      </shape>
+      <shape width="300" height="60" topLeftX="575" topLeftY="430" type="text" id="buv">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>各平台数据割裂，周报月报靠人工汇总；市场货盘、竞品动态、KOL表现缺乏实时洞察，决策往往滞后于市场变化。</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bdU">
+      <content>
+        <p>机遇背后是严峻的挑战。我们调研了上百家跨境电商企业，总结出四大核心痛点：第一，选品难，靠经验拍脑袋，爆款命中率不到10%，库存风险大；第二，内容贵，一套主图加视频加文案，单SKU成本超过500元，还要3到7天周期，多语言多平台更是成本倍增；第三，营销累，运营、客服、投放、KOL对接全靠人堆，人力成本居高不下；第四，数据散，各平台数据不打通，决策全靠感觉，反应永远慢半拍。这四个痛点，本质上都是&quot;人&quot;的瓶颈——而这正是AI可以大展身手的地方。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWv">
+    <style>
+      <fill id="fWv">
+        <fillColor color="linear-gradient(135deg,rgba(26, 10, 30, 1) 0%,rgba(74, 25, 66, 1) 60%,rgba(123, 45, 91, 1) 100%)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="30" topLeftX="80" topLeftY="60" type="text" id="bup">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>02 / 产品概览</p>
+        </content>
+      </shape>
+      <line id="buL" startX="80" startY="105" endX="160.00624975587843" endY="105">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="800" height="120" topLeftX="80" topLeftY="130" type="text" id="buk">
+        <content textType="title" fontSize="44" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" lineSpacing="multiple:1.3">
+          <p>一个 AI Agent，</p>
+          <p>搞定跨境电商全链路运营</p>
+        </content>
+      </shape>
+      <shape width="650" height="80" topLeftX="80" topLeftY="270" type="text" id="buT">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.749)" lineSpacing="multiple:1.8">
+          <p>智莓电商营销AI Agent，是专为跨境电商打造的一站式智能化运营平台。从市场洞察、智能选品，到AIGC内容生成、全域营销推广，再到数据分析与多平台管理——用AI替代重复性人力，让商家聚焦于真正创造价值的决策。</p>
+        </content>
+      </shape>
+      <line id="buF" startX="80" startY="380" endX="900.0006097558709" endY="380">
+        <border color="rgba(255, 255, 255, 0.1)" width="1"/>
+      </line>
+      <shape width="180" height="50" topLeftX="80" topLeftY="410" type="text" id="bur">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>5大</p>
+        </content>
+      </shape>
+      <shape width="180" height="24" topLeftX="80" topLeftY="460" type="text" id="buW">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)">
+          <p>核心功能模块</p>
+        </content>
+      </shape>
+      <shape width="180" height="50" topLeftX="290" topLeftY="410" type="text" id="buP">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>8种</p>
+        </content>
+      </shape>
+      <shape width="180" height="24" topLeftX="290" topLeftY="460" type="text" id="buH">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)">
+          <p>多语言全球化支持</p>
+        </content>
+      </shape>
+      <shape width="180" height="50" topLeftX="500" topLeftY="410" type="text" id="buM">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>10+</p>
+        </content>
+      </shape>
+      <shape width="180" height="24" topLeftX="500" topLeftY="460" type="text" id="buw">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)">
+          <p>主流电商平台对接</p>
+        </content>
+      </shape>
+      <shape width="180" height="50" topLeftX="710" topLeftY="410" type="text" id="bun">
+        <content textType="title" fontSize="36" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>70%</p>
+        </content>
+      </shape>
+      <shape width="180" height="24" topLeftX="710" topLeftY="460" type="text" id="buK">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)">
+          <p>运营人力成本节省</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bux">
+      <content>
+        <p>面对这些痛点，智莓科技给出的答案是——一个AI Agent搞定跨境电商全链路运营。智莓电商营销AI Agent不是一个单点工具，而是一个完整的智能化运营平台。它覆盖了五大核心功能模块，支持8种语言的全球化运营，对接10多个主流电商平台，经过测算可以帮助商家节省70%以上的运营人力成本。接下来我会逐一拆解这些能力，让大家看到AI具体能做什么、怎么做、效果如何。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWc">
+    <style>
+      <fill id="fWc">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="30" topLeftX="80" topLeftY="40" type="text" id="bug">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 / 功能详解</p>
+        </content>
+      </shape>
+      <shape width="700" height="45" topLeftX="80" topLeftY="72" type="text" id="buR">
+        <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>五大功能模块，覆盖电商运营全链路</p>
+        </content>
+      </shape>
+      <line id="bAA" startX="80" startY="128" endX="160.00624975587843" endY="128">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="160" height="160" topLeftX="400" topLeftY="200" type="ellipse" id="bAc">
+        <fill>
+          <fillColor color="linear-gradient(135deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="160" height="30" topLeftX="400" topLeftY="245" type="text" id="bAZ">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" textAlign="center">
+          <p>智莓 AI Agent</p>
+        </content>
+      </shape>
+      <shape width="160" height="40" topLeftX="400" topLeftY="280" type="text" id="bAV">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.702)" lineSpacing="multiple:1.4" textAlign="center">
+          <p>跨境电商</p>
+          <p>全链路智能引擎</p>
+        </content>
+      </shape>
+      <line id="buy" startX="280" startY="210" endX="400.0035502433404" endY="260.00147926805846">
+        <border color="rgba(74, 25, 66, 0.2)" width="1"/>
+      </line>
+      <line id="buh" startX="680.0000000000001" startY="210" endX="559.9964497566598" endY="260.0014792680586">
+        <border color="rgba(74, 25, 66, 0.2)" width="1"/>
+      </line>
+      <line id="bue" startX="200" startY="380" endX="400.002155160802" endY="299.9991379356791">
+        <border color="rgba(74, 25, 66, 0.2)" width="1"/>
+      </line>
+      <line id="bAu" startX="719.9999999999999" startY="375.0000000000001" endX="559.9975000195309" endY="294.9987500097656">
+        <border color="rgba(74, 25, 66, 0.2)" width="1"/>
+      </line>
+      <line id="bAX" startX="480" startY="429.99999999999994" endX="479.99999999999994" endY="359.9928575072514">
+        <border color="rgba(74, 25, 66, 0.2)" width="1"/>
+      </line>
+      <shape width="180" height="90" topLeftX="100" topLeftY="155" presetHandlers="0" type="rect" id="bAm">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.15)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="24" topLeftX="115" topLeftY="168" type="text" id="bAt">
+        <content textType="sub-headline" fontSize="15" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>AI 智能选品</p>
+        </content>
+      </shape>
+      <shape width="150" height="45" topLeftX="115" topLeftY="195" type="text" id="buo">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" lineSpacing="multiple:1.4">
+          <p>市场趋势 · 爆品挖掘</p>
+          <p>AI生成信息 · 一键上架</p>
+        </content>
+      </shape>
+      <shape width="180" height="90" topLeftX="680" topLeftY="155" presetHandlers="0" type="rect" id="buB">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.15)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="24" topLeftX="695" topLeftY="168" type="text" id="buD">
+        <content textType="sub-headline" fontSize="15" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>AIGC 内容工厂</p>
+        </content>
+      </shape>
+      <shape width="150" height="40" topLeftX="695" topLeftY="195" type="text" id="bAd">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" lineSpacing="multiple:1.4">
+          <p>电商主图 · 带货视频</p>
+          <p>营销海报 · AI模特试穿</p>
+        </content>
+      </shape>
+      <shape width="180" height="90" topLeftX="60" topLeftY="345" presetHandlers="0" type="rect" id="bAE">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.15)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="24" topLeftX="75" topLeftY="358" type="text" id="bAj">
+        <content textType="sub-headline" fontSize="15" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>AI 智能营销</p>
+        </content>
+      </shape>
+      <shape width="150" height="40" topLeftX="75" topLeftY="385" type="text" id="bAa">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" lineSpacing="multiple:1.4">
+          <p>多语言营销文案 · 广告素材</p>
+          <p>社媒内容 · 投放优化建议</p>
+        </content>
+      </shape>
+      <shape width="180" height="90" topLeftX="720" topLeftY="345" presetHandlers="0" type="rect" id="buU">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.15)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="24" topLeftX="735" topLeftY="358" type="text" id="buS">
+        <content textType="sub-headline" fontSize="15" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>市场分析洞察</p>
+        </content>
+      </shape>
+      <shape width="150" height="40" topLeftX="735" topLeftY="385" type="text" id="buI">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" lineSpacing="multiple:1.4">
+          <p>店铺周报 · 货盘分析</p>
+          <p>KOL分析 · UCG内容分析</p>
+        </content>
+      </shape>
+      <shape width="180" height="70" topLeftX="390" topLeftY="445" presetHandlers="0" type="rect" id="bAv">
+        <fill>
+          <fillColor color="rgba(201, 169, 97, 0.12)"/>
+        </fill>
+        <border color="rgba(201, 169, 97, 0.4)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="24" topLeftX="405" topLeftY="458" type="text" id="bAQ">
+        <content textType="sub-headline" fontSize="15" fontFamily="思源黑体" color="rgba(168, 130, 50, 1)" bold="true" textAlign="center">
+          <p>多平台统一管理</p>
+        </content>
+      </shape>
+      <shape width="180" height="24" topLeftX="390" topLeftY="483" type="text" id="bAl">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" textAlign="center" wrap="false">
+          <p>10+平台 · 8种语言 · 数据互通</p>
+        </content>
+      </shape>
+    </data>
+    <note id="buN">
+      <content>
+        <p>这是智莓AI Agent的整体架构。中心是我们的AI引擎，向外辐射五大功能模块。左上角是AI智能选品，帮你找到爆款、生成商品信息、一键多平台上架；右上角是AIGC内容工厂，主图、视频、海报、模特图全部AI生成；左下角是AI智能营销，多语言文案、广告素材、社媒内容一键产出；右下角是市场分析洞察，店铺周报、货盘分析、KOL分析、UCG分析全覆盖；底部是多平台统一管理层，对接10多个主流平台，支持8种语言，数据全互通。这五个模块不是孤立的，而是形成了一个从发现机会到创造内容、从推广获客到数据复盘的完整闭环。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWX">
+    <style>
+      <fill id="fWX">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="30" topLeftX="80" topLeftY="50" type="text" id="bAs">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 / 功能详解 · 模块一</p>
+        </content>
+      </shape>
+      <shape width="600" height="45" topLeftX="80" topLeftY="85" type="text" id="bAJ">
+        <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>AI 智能选品：从发现爆款到一键上架</p>
+        </content>
+      </shape>
+      <line id="bAx" startX="80" startY="145" endX="160.00624975587843" endY="145">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="200" height="300" topLeftX="80" topLeftY="180" presetHandlers="0" type="rect" id="bAp">
+        <fill>
+          <fillColor color="rgba(74, 25, 66, 0.04)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="160" height="30" topLeftX="100" topLeftY="200" type="text" id="bAL">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>市场趋势分析</p>
+        </content>
+      </shape>
+      <line id="bAk" startX="100" startY="235" endX="140.0124980474851" endY="235">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="160" height="110" topLeftX="100" topLeftY="250" type="text" id="bAq">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>· 多平台热销榜实时监控</p>
+          <p>· 品类增长趋势预测</p>
+          <p>· 关键词热度与竞争度分析</p>
+          <p>· 季节性选品提醒</p>
+        </content>
+      </shape>
+      <shape width="160" height="60" topLeftX="100" topLeftY="400" type="text" id="bAf">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>输出：</strong>高潜力品类清单</p>
+          <p><strong>效率：</strong>人工调研的10倍速</p>
+        </content>
+      </shape>
+      <shape width="200" height="300" topLeftX="300" topLeftY="180" presetHandlers="0" type="rect" id="bAY">
+        <fill>
+          <fillColor color="rgba(74, 25, 66, 0.04)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="160" height="30" topLeftX="320" topLeftY="200" type="text" id="bAw">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>爆品深度挖掘</p>
+        </content>
+      </shape>
+      <line id="bAn" startX="320" startY="235" endX="360.0124980474851" endY="235">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="160" height="110" topLeftX="320" topLeftY="250" type="text" id="bAK">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>· 爆款商品画像拆解</p>
+          <p>· 卖点与评价语义分析</p>
+          <p>· 竞品价格带与利润测算</p>
+          <p>· 差异化机会点识别</p>
+        </content>
+      </shape>
+      <shape width="160" height="60" topLeftX="320" topLeftY="400" type="text" id="bAO">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>输出：</strong>爆品候选池+评分</p>
+          <p><strong>命中率：</strong>提升至35%+</p>
+        </content>
+      </shape>
+      <shape width="200" height="300" topLeftX="520" topLeftY="180" presetHandlers="0" type="rect" id="bAi">
+        <fill>
+          <fillColor color="rgba(74, 25, 66, 0.04)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="160" height="30" topLeftX="540" topLeftY="200" type="text" id="bAC">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>AI 生成商品信息</p>
+        </content>
+      </shape>
+      <line id="bAP" startX="540" startY="235" endX="580.0124980474851" endY="235">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="160" height="110" topLeftX="540" topLeftY="250" type="text" id="bAH">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>· 多语言商品标题自动生成</p>
+          <p>· 6大卖点深度描述</p>
+          <p>· 建议售价与利润分析</p>
+          <p>· 商品主图AI生成</p>
+        </content>
+      </shape>
+      <shape width="160" height="60" topLeftX="540" topLeftY="400" type="text" id="bAM">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>输出：</strong>完整商品详情页</p>
+          <p><strong>耗时：</strong>从3天到3分钟</p>
+        </content>
+      </shape>
+      <shape width="160" height="300" topLeftX="740" topLeftY="180" presetHandlers="0" type="rect" id="bAG">
+        <fill>
+          <fillColor color="linear-gradient(180deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="130" height="30" topLeftX="755" topLeftY="200" type="text" id="bAz">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>一键多平台上架</p>
+        </content>
+      </shape>
+      <line id="bAT" startX="755" startY="235" endX="795.0124980474851" endY="235">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="130" height="110" topLeftX="755" topLeftY="250" type="text" id="bAF">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.851)" lineSpacing="multiple:1.7">
+          <p>· 选择目标店铺</p>
+          <p>· 自动适配平台规则</p>
+          <p>· 多语言自动翻译</p>
+          <p>· 一键发布上线</p>
+        </content>
+      </shape>
+      <shape width="130" height="60" topLeftX="755" topLeftY="400" type="text" id="bAr">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>支持：</strong>10+主流平台</p>
+          <p><strong>效率：</strong>1人顶10人运营</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bAb">
+      <content>
+        <p>第一个核心模块是AI智能选品。这个模块解决的是&quot;卖什么&quot;和&quot;怎么快速上架&quot;的问题。它分为四个环节：第一步，市场趋势分析，AI实时监控各平台热销榜、预测品类增长趋势、分析关键词热度，帮你找到高潜力赛道，效率是人工调研的10倍；第二步，爆品深度挖掘，AI拆解爆款商品画像、分析用户评价语义、测算竞品价格带和利润空间，帮你识别差异化机会，爆款命中率从不到10%提升到35%以上；第三步，AI生成商品信息，包括多语言标题、六大卖点描述、建议售价、甚至商品主图，原来需要3天的工作现在3分钟完成；第四步，一键多平台上架，选择目标店铺后，AI自动适配各平台规则、自动翻译多语言，一键发布。整个流程形成了从发现机会到商品上线的完整闭环。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWj">
+    <style>
+      <fill id="fWj">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="240" height="30" topLeftX="80" topLeftY="50" type="text" id="bAg">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 / 功能详解 · 模块二</p>
+        </content>
+      </shape>
+      <shape width="700" height="45" topLeftX="80" topLeftY="85" type="text" id="bAe">
+        <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>AIGC 内容工厂：图文视频一站式 AI 生成</p>
+        </content>
+      </shape>
+      <line id="bvc" startX="80" startY="145" endX="160.00624975587843" endY="145">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="600" height="25" topLeftX="80" topLeftY="165" type="text" id="bAo">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>接入6+生图模型与6+生视频模型，单SKU内容成本从500元降至5元以内</p>
+        </content>
+      </shape>
+      <shape width="400" height="140" topLeftX="80" topLeftY="210" presetHandlers="0" type="rect" id="bAh">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="28" topLeftX="100" topLeftY="225" type="text" id="bAD">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>文生电商主图 · 多视角</p>
+        </content>
+      </shape>
+      <shape width="360" height="75" topLeftX="100" topLeftY="260" type="text" id="bvu">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>输入商品描述，一键生成8种视角商品图：正面、侧面、背面、细节特写、场景图、包装图、白底图、 lifestyle图。支持Stable Diffusion、Midjourney、DALL-E 3、通义万相等6种模型切换，可自定义尺寸和生成数量。</p>
+        </content>
+      </shape>
+      <shape width="400" height="140" topLeftX="500" topLeftY="210" presetHandlers="0" type="rect" id="bvX">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="28" topLeftX="520" topLeftY="225" type="text" id="bAU">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>文生带货视频 · 多风格</p>
+        </content>
+      </shape>
+      <shape width="360" height="75" topLeftX="520" topLeftY="260" type="text" id="bAB">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>AI生成5-30秒带货短视频，支持种草带货、产品展示、开箱测评、剧情演绎等6种风格。接入Runway、Pika、可灵、Sora等6种视频模型，自动生成分镜脚本、口播文案和话题标签，支持9:16/16:9/1:1三种比例。</p>
+        </content>
+      </shape>
+      <shape width="260" height="140" topLeftX="80" topLeftY="370" presetHandlers="0" type="rect" id="bAI">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="28" topLeftX="100" topLeftY="385" type="text" id="bvd">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>营销海报生成</p>
+        </content>
+      </shape>
+      <shape width="220" height="75" topLeftX="100" topLeftY="420" type="text" id="bvE">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>节日促销、新品上市、品牌宣传、限时秒杀等6种海报风格，4种尺寸一键生成3张不同方案。</p>
+        </content>
+      </shape>
+      <shape width="260" height="140" topLeftX="360" topLeftY="370" presetHandlers="0" type="rect" id="bAW">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="28" topLeftX="380" topLeftY="385" type="text" id="bAN">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>AI 模特试穿</p>
+        </content>
+      </shape>
+      <shape width="220" height="75" topLeftX="380" topLeftY="420" type="text" id="bAS">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.7">
+          <p>6种模特类型（女模/男模/童模/虚拟人/情侣/多人），6种拍摄场景，一键生成4张模特试穿图。</p>
+        </content>
+      </shape>
+      <shape width="260" height="140" topLeftX="640" topLeftY="370" presetHandlers="0" type="rect" id="bAR">
+        <fill>
+          <fillColor color="linear-gradient(135deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="40" topLeftX="660" topLeftY="390" type="text" id="bvA">
+        <content textType="title" fontSize="32" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>成本降 99%</p>
+        </content>
+      </shape>
+      <shape width="220" height="60" topLeftX="660" topLeftY="435" type="text" id="bvv">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.8)" lineSpacing="multiple:1.6">
+          <p>单SKU全套内容（主图+视频+海报）</p>
+          <p>从 500+ 元降至 5 元以内</p>
+          <p>周期从 3-7 天缩短至 10 分钟</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bAy">
+      <content>
+        <p>第二个核心模块是AIGC内容工厂，这也是智莓AI Agent最具竞争力的模块之一。传统电商做一套内容——主图、视频、海报——单SKU成本超过500元，还要等3到7天。我们的AIGC内容工厂把这个成本降到了5元以内，时间缩短到10分钟。具体来说有四大能力：第一，文生电商主图，输入商品描述一键生成8种视角，支持6种生图模型切换；第二，文生带货视频，5到30秒短视频，6种风格，6种视频模型，自动生成脚本和口播；第三，营销海报生成，6种风格4种尺寸；第四，AI模特试穿，不用找真人模特，6种模特类型6种场景一键生成。这四个能力加起来，基本覆盖了电商运营需要的所有视觉内容。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWQ">
+    <style>
+      <fill id="fWQ">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="280" height="30" topLeftX="80" topLeftY="40" type="text" id="bvq">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 / 功能详解 · 模块三+四</p>
+        </content>
+      </shape>
+      <shape width="700" height="40" topLeftX="80" topLeftY="72" type="text" id="bvf">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>智能营销 + 数据洞察：从获客到决策的闭环</p>
+        </content>
+      </shape>
+      <line id="bvx" startX="80" startY="125" endX="160.00624975587843" endY="125">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="400" height="360" topLeftX="80" topLeftY="150" presetHandlers="0" type="rect" id="bvp">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="30" topLeftX="100" topLeftY="168" type="text" id="bvZ">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>模块三：AI 智能营销</p>
+        </content>
+      </shape>
+      <line id="bvl" startX="100" startY="205" endX="140.0124980474851" endY="205">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="360" height="24" topLeftX="100" topLeftY="220" type="text" id="bvb">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>多语言营销文案生成</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="100" topLeftY="245" type="text" id="bvs">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>支持8种语言，覆盖商品描述、广告文案、社媒帖子、邮件营销等10+场景，一键生成多版本A/B测试素材。</p>
+        </content>
+      </shape>
+      <shape width="360" height="24" topLeftX="100" topLeftY="290" type="text" id="bvJ">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>广告素材智能产出</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="100" topLeftY="315" type="text" id="bvT">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>根据平台特性自动适配Facebook、Google、TikTok、Instagram等渠道的广告素材规格与文案风格。</p>
+        </content>
+      </shape>
+      <shape width="360" height="24" topLeftX="100" topLeftY="360" type="text" id="bvQ">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>KOL 智能匹配与建联</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="100" topLeftY="385" type="text" id="bva">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>基于品类、目标市场、预算，智能匹配各层级KOL/KOC，自动生成合作邀约话术与效果评估框架。</p>
+        </content>
+      </shape>
+      <shape width="360" height="50" topLeftX="100" topLeftY="440" type="text" id="bvG">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>价值：</strong>营销素材产出效率提升10倍</p>
+          <p><strong>覆盖：</strong>8种语言 × 10+主流渠道</p>
+        </content>
+      </shape>
+      <shape width="400" height="360" topLeftX="500" topLeftY="150" presetHandlers="0" type="rect" id="bvz">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="30" topLeftX="520" topLeftY="168" type="text" id="bvC">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>模块四：市场分析洞察</p>
+        </content>
+      </shape>
+      <line id="bvP" startX="520" startY="205" endX="560.0124980474851" endY="205">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="360" height="24" topLeftX="520" topLeftY="220" type="text" id="bvj">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>店铺商品周报</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="520" topLeftY="245" type="text" id="bvt">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>自动生成经营数据、商品排行、爆款分析、流量来源、用户画像与下周运营建议，告别手工汇总。</p>
+        </content>
+      </shape>
+      <shape width="360" height="24" topLeftX="520" topLeftY="290" type="text" id="bvO">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>市场货盘分析</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="520" topLeftY="315" type="text" id="bvi">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>市场规模、价格带分布、热销属性、竞品TOP5分析，输出选品建议、备货建议与利润测算。</p>
+        </content>
+      </shape>
+      <shape width="360" height="24" topLeftX="520" topLeftY="360" type="text" id="bvY">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>KOL 分析 + UCG 内容分析</p>
+        </content>
+      </shape>
+      <shape width="360" height="35" topLeftX="520" topLeftY="385" type="text" id="bvw">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)">
+          <p>KOL分级标准、带货能力评估、合作建议与筛选SOP；UCG正负评价关键词、热门话题、用户画像与营销建议。</p>
+        </content>
+      </shape>
+      <shape width="360" height="50" topLeftX="520" topLeftY="440" type="text" id="bvm">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)">
+          <p><strong>价值：</strong>决策从&quot;拍脑袋&quot;到&quot;看数据&quot;</p>
+          <p><strong>效率：</strong>周报生成从2天到5分钟</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bvV">
+      <content>
+        <p>接下来是模块三和模块四，我放在一起讲。模块三是AI智能营销，解决&quot;怎么卖&quot;的问题。它有三个核心能力：第一，多语言营销文案生成，支持8种语言，覆盖商品描述、广告文案、社媒帖子、邮件营销等10多个场景，还能一键生成多版本做A/B测试；第二，广告素材智能产出，根据Facebook、Google、TikTok、Instagram等不同平台的特性自动适配素材规格和文案风格；第三，KOL智能匹配与建联，根据品类、目标市场和预算自动匹配各层级KOL，还能生成合作邀约话术。营销素材产出效率整体提升10倍。 模块四是市场分析洞察，解决&quot;怎么决策&quot;的问题。它也有四大分析能力：第一，店铺商品周报，自动生成经营数据、商品排行、爆款分析、流量来源、用户画像和下周建议，原来花2天做的周报现在5分钟搞定；第二，市场货盘分析，包括市场规模、价格带、热销属性、竞品分析，输出选品和备货建议；第三，KOL分析，包括分级标准、带货能力评估、合作建议和筛选SOP；第四，UCG内容分析，挖掘正负评价关键词、热门话题和用户画像。这四个模块加起来，让决策从&quot;拍脑袋&quot;变成&quot;看数据&quot;。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWN">
+    <style>
+      <fill id="fWN">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="280" height="30" topLeftX="80" topLeftY="40" type="text" id="bEX">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>04 / 技术底座 · 全球化能力</p>
+        </content>
+      </shape>
+      <shape width="700" height="40" topLeftX="80" topLeftY="72" type="text" id="bvF">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>多平台统一管理 + 多语言全球化 + AI模型矩阵</p>
+        </content>
+      </shape>
+      <line id="bvo" startX="80" startY="125" endX="160.00624975587843" endY="125">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="270" height="360" topLeftX="80" topLeftY="150" presetHandlers="0" type="rect" id="bEE">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="230" height="28" topLeftX="100" topLeftY="168" type="text" id="bvU">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>10+ 电商平台对接</p>
+        </content>
+      </shape>
+      <line id="bvD" startX="100" startY="203" endX="140.0124980474851" endY="203">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="230" height="80" topLeftX="100" topLeftY="218" type="text" id="bvI">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.8">
+          <p><strong><span color="rgba(26, 26, 46, 1)">国内平台：</span></strong>淘宝、天猫、京东、拼多多、抖音小店</p>
+          <p><strong><span color="rgba(26, 26, 46, 1)">跨境平台：</span></strong>亚马逊、Shopee、Lazada、速卖通、eBay、TikTok Shop</p>
+        </content>
+      </shape>
+      <line id="bvn" startX="100" startY="310" endX="330.00217390276987" endY="310">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="230" height="24" topLeftX="100" topLeftY="325" type="text" id="bvN">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>统一管理能力</p>
+        </content>
+      </shape>
+      <shape width="230" height="130" topLeftX="100" topLeftY="355" type="text" id="bvR">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.7">
+          <p>· 多店铺统一后台管理</p>
+          <p>· 商品信息一键同步多平台</p>
+          <p>· 各平台数据自动汇总打通</p>
+          <p>· 平台规则自动适配</p>
+          <p>· 订单与库存统一视图</p>
+        </content>
+      </shape>
+      <shape width="270" height="360" topLeftX="370" topLeftY="150" presetHandlers="0" type="rect" id="bEc">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.12)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="230" height="28" topLeftX="390" topLeftY="168" type="text" id="bvH">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>8 种语言全球化</p>
+        </content>
+      </shape>
+      <line id="bvy" startX="390" startY="203" endX="430.0124980474851" endY="203">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="230" height="100" topLeftX="390" topLeftY="218" type="text" id="bvh">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.8)" lineSpacing="multiple:1.8">
+          <p>中文简体 · English · 日本語 · 한국어</p>
+          <p>Español · ไทย · Tiếng Việt · Bahasa Indonesia</p>
+        </content>
+      </shape>
+      <line id="bEu" startX="390" startY="330" endX="620.0021739027699" endY="330">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="230" height="24" topLeftX="390" topLeftY="345" type="text" id="bvr">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>全链路多语言</p>
+        </content>
+      </shape>
+      <shape width="230" height="110" topLeftX="390" topLeftY="375" type="text" id="bvK">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.7">
+          <p>· 商品信息自动翻译本地化</p>
+          <p>· 营销文案母语级生成</p>
+          <p>· 客服话术多语言适配</p>
+          <p>· 内容生成支持多语言提示词</p>
+          <p>· 界面语言一键切换</p>
+        </content>
+      </shape>
+      <shape width="240" height="360" topLeftX="660" topLeftY="150" presetHandlers="0" type="rect" id="bvB">
+        <fill>
+          <fillColor color="linear-gradient(180deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="28" topLeftX="680" topLeftY="168" type="text" id="bEd">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>AI 模型矩阵</p>
+        </content>
+      </shape>
+      <line id="bvL" startX="680" startY="203" endX="720.0124980474851" endY="203">
+        <border color="rgba(201, 169, 97, 1)"/>
+      </line>
+      <shape width="200" height="22" topLeftX="680" topLeftY="220" type="text" id="bvM">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>大语言模型（6+）</p>
+        </content>
+      </shape>
+      <shape width="200" height="35" topLeftX="680" topLeftY="245" type="text" id="bEv">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.749)">
+          <p>通义千问、GPT-4o、Claude、文心一言、豆包、Gemini</p>
+        </content>
+      </shape>
+      <shape width="200" height="22" topLeftX="680" topLeftY="290" type="text" id="bvW">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>生图模型（6+）</p>
+        </content>
+      </shape>
+      <shape width="200" height="35" topLeftX="680" topLeftY="315" type="text" id="bvS">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.749)">
+          <p>Stable Diffusion、Midjourney、DALL-E 3、通义万相、可灵、即梦</p>
+        </content>
+      </shape>
+      <shape width="200" height="22" topLeftX="680" topLeftY="360" type="text" id="bEA">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>生视频模型（6+）</p>
+        </content>
+      </shape>
+      <shape width="200" height="35" topLeftX="680" topLeftY="385" type="text" id="bvk">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.749)">
+          <p>Runway、Pika、可灵、Sora、通义视频、Vidu</p>
+        </content>
+      </shape>
+      <shape width="200" height="50" topLeftX="680" topLeftY="440" type="text" id="bvg">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)">
+          <p>模型统一调度，按场景智能路由</p>
+          <p>支持自定义模型接入与微调</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bve">
+      <content>
+        <p>讲完功能模块，我们来看支撑这些能力的技术底座。第一块是多平台统一管理，我们对接了10多个主流电商平台，国内有淘宝、天猫、京东、拼多多、抖音小店，跨境有亚马逊、Shopee、Lazada、速卖通、eBay、TikTok Shop。一个后台统一管理所有店铺，商品信息一键同步，数据自动汇总，平台规则自动适配。 第二块是多语言全球化能力，支持8种语言——中文、英文、日文、韩文、西班牙文、泰文、越南文、印尼文。而且不是简单的翻译，是全链路的多语言：商品信息本地化、营销文案母语级生成、客服话术适配、甚至内容生成都支持多语言提示词。 第三块是AI模型矩阵，这是我们的核心技术壁垒。我们接入了6+大语言模型、6+生图模型、6+生视频模型，总共18个以上的主流AI模型。我们做了统一调度层，会根据不同场景智能路由到最合适的模型，同时也支持客户接入自己的模型或做微调。这意味着客户不需要自己去研究各个模型的API，在智莓的平台上就能用到最好的AI能力。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWa">
+    <style>
+      <fill id="fWa">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="30" topLeftX="80" topLeftY="40" type="text" id="bEW">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 / 竞争优势</p>
+        </content>
+      </shape>
+      <shape width="700" height="40" topLeftX="80" topLeftY="72" type="text" id="bES">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>为什么选择智莓 AI Agent？</p>
+        </content>
+      </shape>
+      <line id="bXv" startX="80" startY="125" endX="160.00624975587843" endY="125">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <table id="bEp" width="820" height="340" topLeftX="80" topLeftY="155">
+        <colgroup>
+          <col span="3" width="200"/>
+          <col span="1" width="220"/>
+        </colgroup>
+        <tr height="57">
+          <td id="bEg">
+            <fill>
+              <fillColor color="rgba(61, 61, 78, 0.08)"/>
+            </fill>
+            <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>对比维度</p>
+            </content>
+          </td>
+          <td id="bXA">
+            <fill>
+              <fillColor color="rgba(61, 61, 78, 0.08)"/>
+            </fill>
+            <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" bold="true">
+              <p>传统人工运营</p>
+            </content>
+          </td>
+          <td id="bEw">
+            <fill>
+              <fillColor color="rgba(61, 61, 78, 0.08)"/>
+            </fill>
+            <content fontSize="13" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)" bold="true">
+              <p>单点AI工具</p>
+            </content>
+          </td>
+          <td id="bEK">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 1)"/>
+            </fill>
+            <content fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+              <p>智莓 AI Agent</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="57">
+          <td id="bEh">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>选品效率</p>
+            </content>
+          </td>
+          <td id="bXu">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>人工调研 3-5 天</p>
+            </content>
+          </td>
+          <td id="bEP">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>仅提供数据，需人工分析</p>
+            </content>
+          </td>
+          <td id="bEM">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 0.06)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+              <p>AI分析 5 分钟，命中率35%+</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="57">
+          <td id="bEB">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>内容生产成本</p>
+            </content>
+          </td>
+          <td id="bXd">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>500+ 元 / SKU</p>
+            </content>
+          </td>
+          <td id="bET">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>50-100 元 / SKU，单工具</p>
+            </content>
+          </td>
+          <td id="bEr">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 0.06)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+              <p>5 元以内 / SKU，图文视频全包</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="57">
+          <td id="bEN">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>多语言支持</p>
+            </content>
+          </td>
+          <td id="bEI">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>需招多语种团队，成本高</p>
+            </content>
+          </td>
+          <td id="bEx">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>部分支持，需翻译工具配合</p>
+            </content>
+          </td>
+          <td id="bEL">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 0.06)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+              <p>8种语言全链路原生支持</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="57">
+          <td id="bEy">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>平台覆盖</p>
+            </content>
+          </td>
+          <td id="bER">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>单平台专人运营</p>
+            </content>
+          </td>
+          <td id="bEn">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>通常仅支持1-2个平台</p>
+            </content>
+          </td>
+          <td id="bEo">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 0.06)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+              <p>10+平台统一管理，一键同步</p>
+            </content>
+          </td>
+        </tr>
+        <tr height="55">
+          <td id="bEe">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+              <p>数据闭环</p>
+            </content>
+          </td>
+          <td id="bEH">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>数据分散，决策靠经验</p>
+            </content>
+          </td>
+          <td id="bEU">
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+              <p>单点数据，无法形成闭环</p>
+            </content>
+          </td>
+          <td id="bED">
+            <fill>
+              <fillColor color="rgba(74, 25, 66, 0.06)"/>
+            </fill>
+            <content fontSize="12" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+              <p>选品-内容-营销-数据全链路闭环</p>
+            </content>
+          </td>
+        </tr>
+      </table>
+      <shape width="800" height="20" topLeftX="80" topLeftY="510" type="text" id="bEk">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.4)">
+          <p>数据基于智莓科技客户实测与行业公开调研整理，具体效果因品类与运营基础而异</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bEF">
+      <content>
+        <p>接下来我们做一个横向对比。和传统人工运营比，智莓AI Agent在选品效率上从3-5天缩短到5分钟，内容生产成本从500元以上降到5元以内，多语言不需要专门招团队，10多个平台一个后台统一管理，数据形成完整闭环。和市面上的单点AI工具比，我们的优势在于&quot;全链路&quot;——很多工具只能做一件事，比如只能生成图片或者只能写文案，而智莓是从选品、内容、营销到数据分析的完整闭环，数据互通，流程串联。而且我们的模型矩阵接入了18个以上的主流AI模型，客户不需要自己去对接各个API，在我们的平台上就能用到最好的能力。简单说，传统方式是&quot;人找工具干活&quot;，智莓是&quot;AI Agent自动干活，人只做决策&quot;。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWO">
+    <style>
+      <fill id="fWO">
+        <fillColor color="linear-gradient(135deg,rgba(26, 10, 30, 1) 0%,rgba(74, 25, 66, 1) 50%,rgba(123, 45, 91, 1) 100%)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="200" height="30" topLeftX="80" topLeftY="50" type="text" id="bEJ">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 / 客户价值</p>
+        </content>
+      </shape>
+      <shape width="700" height="45" topLeftX="80" topLeftY="85" type="text" id="bEQ">
+        <content textType="title" fontSize="30" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" wrap="false">
+          <p>用数据说话：智莓为客户创造的真实价值</p>
+        </content>
+      </shape>
+      <line id="bEl" startX="80" startY="145" endX="160.00624975587843" endY="145">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="200" height="80" topLeftX="80" topLeftY="195" type="text" id="bEb">
+        <content textType="title" fontSize="64" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" wrap="false">
+          <p>70%</p>
+        </content>
+      </shape>
+      <shape width="200" height="30" topLeftX="80" topLeftY="280" type="text" id="bEz">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>运营人力成本节省</p>
+        </content>
+      </shape>
+      <shape width="200" height="50" topLeftX="80" topLeftY="315" type="text" id="bEC">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)" lineSpacing="multiple:1.6">
+          <p>AI替代重复性运营工作，1人可管理原需5-10人的店铺规模</p>
+        </content>
+      </shape>
+      <shape width="200" height="80" topLeftX="310" topLeftY="195" type="text" id="bEj">
+        <content textType="title" fontSize="64" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" wrap="false">
+          <p>99%</p>
+        </content>
+      </shape>
+      <shape width="200" height="30" topLeftX="310" topLeftY="280" type="text" id="bEa">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>内容生产成本降低</p>
+        </content>
+      </shape>
+      <shape width="200" height="50" topLeftX="310" topLeftY="315" type="text" id="bEG">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)" lineSpacing="multiple:1.6">
+          <p>单SKU全套内容从500+元降至5元以内，周期从3-7天缩至10分钟</p>
+        </content>
+      </shape>
+      <shape width="200" height="80" topLeftX="540" topLeftY="195" type="text" id="bEi">
+        <content textType="title" fontSize="64" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" wrap="false">
+          <p>10x</p>
+        </content>
+      </shape>
+      <shape width="200" height="30" topLeftX="540" topLeftY="280" type="text" id="bEY">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>运营效率提升</p>
+        </content>
+      </shape>
+      <shape width="200" height="50" topLeftX="540" topLeftY="315" type="text" id="bEm">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)" lineSpacing="multiple:1.6">
+          <p>选品调研、周报生成、文案产出等核心环节效率提升5-10倍</p>
+        </content>
+      </shape>
+      <shape width="170" height="80" topLeftX="750" topLeftY="195" type="text" id="bEt">
+        <content textType="title" fontSize="56" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" wrap="false">
+          <p>35%+</p>
+        </content>
+      </shape>
+      <shape width="170" height="30" topLeftX="750" topLeftY="280" type="text" id="bEO">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true">
+          <p>爆款命中率</p>
+        </content>
+      </shape>
+      <shape width="170" height="50" topLeftX="750" topLeftY="315" type="text" id="bEf">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)" lineSpacing="multiple:1.6">
+          <p>AI数据驱动选品，爆款命中率从行业平均不足10%提升至35%以上</p>
+        </content>
+      </shape>
+      <line id="bEZ" startX="80" startY="400" endX="900.0006097558709" endY="400">
+        <border color="rgba(255, 255, 255, 0.1)" width="1"/>
+      </line>
+      <shape width="800" height="30" topLeftX="80" topLeftY="425" type="text" id="bEV">
+        <content textType="sub-headline" fontSize="16" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.902)" bold="true" textAlign="center">
+          <p>典型客户：月销百万级跨境服饰卖家，使用3个月后</p>
+        </content>
+      </shape>
+      <shape width="800" height="50" topLeftX="80" topLeftY="465" type="text" id="bEq">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.6)" lineSpacing="multiple:1.6" textAlign="center">
+          <p>运营团队从8人精简至3人，月内容产出从200SKU提升至2000SKU，新品测试周期从2周缩短至3天，整体ROI提升40%</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bEs">
+      <content>
+        <p>讲了这么多功能，最终还是要回到价值本身。这是我们基于客户实测数据总结的四个核心价值指标。第一，运营人力成本节省70%，AI替代了大量重复性工作，1个人可以管理原来需要5到10人的店铺规模。第二，内容生产成本降低99%，单SKU全套内容从500多元降到5元以内，周期从3到7天缩短到10分钟。第三，运营效率提升10倍，选品调研、周报生成、文案产出这些核心环节效率提升5到10倍。第四，爆款命中率提升到35%以上，行业平均不到10%，我们用数据驱动的选品方法帮客户大幅提高了选品成功率。 下面是一个典型客户案例：一个月销百万级的跨境服饰卖家，使用智莓3个月后，运营团队从8人精简到3人，月内容产出从200个SKU提升到2000个，新品测试周期从2周缩短到3天，整体ROI提升了40%。这些不是理论数字，是客户真实跑出来的结果。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWZ">
+    <style>
+      <fill id="fWZ">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="280" height="30" topLeftX="80" topLeftY="40" type="text" id="bXV">
+        <content textType="caption" fontSize="13" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>06 / 应用场景 · 合作模式</p>
+        </content>
+      </shape>
+      <shape width="700" height="40" topLeftX="80" topLeftY="72" type="text" id="bXq">
+        <content textType="title" fontSize="28" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" wrap="false">
+          <p>谁在用智莓？以及我们如何合作</p>
+        </content>
+      </shape>
+      <line id="bXf" startX="80" startY="125" endX="160.00624975587843" endY="125">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="400" height="28" topLeftX="80" topLeftY="150" type="text" id="bXx">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>典型应用场景</p>
+        </content>
+      </shape>
+      <shape width="400" height="75" topLeftX="80" topLeftY="185" presetHandlers="0" type="rect" id="bXw">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="22" topLeftX="100" topLeftY="197" type="text" id="bXX">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>跨境品牌出海</p>
+        </content>
+      </shape>
+      <shape width="360" height="30" topLeftX="100" topLeftY="222" type="text" id="bXm">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>多平台多语言一键铺货，AIGC快速产出本地化内容，数据驱动选品与营销决策</p>
+        </content>
+      </shape>
+      <shape width="400" height="75" topLeftX="80" topLeftY="270" presetHandlers="0" type="rect" id="bXt">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="22" topLeftX="100" topLeftY="282" type="text" id="bXO">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>电商代运营 / TP 服务商</p>
+        </content>
+      </shape>
+      <shape width="360" height="30" topLeftX="100" topLeftY="307" type="text" id="bXi">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>一人管理多店铺多品牌，内容产能提升10倍，服务更多客户而不增加人力成本</p>
+        </content>
+      </shape>
+      <shape width="400" height="75" topLeftX="80" topLeftY="355" presetHandlers="0" type="rect" id="bXY">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="22" topLeftX="100" topLeftY="367" type="text" id="bXP">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>工厂 / 供应链转型</p>
+        </content>
+      </shape>
+      <shape width="360" height="30" topLeftX="100" topLeftY="392" type="text" id="bXE">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>从代工到自主品牌，AI辅助选品定价、内容生产与渠道铺设，降低转型门槛</p>
+        </content>
+      </shape>
+      <shape width="400" height="75" topLeftX="80" topLeftY="440" presetHandlers="0" type="rect" id="bXj">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="360" height="22" topLeftX="100" topLeftY="452" type="text" id="bXa">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>个人创业者 / 小团队</p>
+        </content>
+      </shape>
+      <shape width="360" height="30" topLeftX="100" topLeftY="477" type="text" id="bXG">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.702)">
+          <p>极低启动成本，AI充当你的运营团队，一个人也能玩转多平台跨境电商</p>
+        </content>
+      </shape>
+      <shape width="380" height="28" topLeftX="520" topLeftY="150" type="text" id="bXz">
+        <content textType="sub-headline" fontSize="17" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true">
+          <p>灵活的合作模式</p>
+        </content>
+      </shape>
+      <shape width="380" height="100" topLeftX="520" topLeftY="185" presetHandlers="0" type="rect" id="bXC">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="540" topLeftY="197" type="text" id="bXQ">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>SaaS 订阅模式</p>
+        </content>
+      </shape>
+      <shape width="340" height="50" topLeftX="540" topLeftY="225" type="text" id="bXZ">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>按月/按年订阅，基础版、专业版、企业版三档可选，开箱即用，适合大多数商家。支持免费试用7天。</p>
+        </content>
+      </shape>
+      <shape width="380" height="100" topLeftX="520" topLeftY="295" presetHandlers="0" type="rect" id="bXl">
+        <fill>
+          <fillColor color="rgba(255, 255, 255, 1)"/>
+        </fill>
+        <border color="rgba(74, 25, 66, 0.1)" width="1"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="540" topLeftY="307" type="text" id="bXb">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true">
+          <p>定制化部署</p>
+        </content>
+      </shape>
+      <shape width="340" height="50" topLeftX="540" topLeftY="335" type="text" id="bXs">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.6">
+          <p>支持私有化部署、专属模型微调、定制功能开发，适合中大型企业与特殊数据合规需求。</p>
+        </content>
+      </shape>
+      <shape width="380" height="110" topLeftX="520" topLeftY="405" presetHandlers="0" type="rect" id="bXJ">
+        <fill>
+          <fillColor color="linear-gradient(135deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="340" height="24" topLeftX="540" topLeftY="420" type="text" id="bXT">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true">
+          <p>渠道合作伙伴计划</p>
+        </content>
+      </shape>
+      <shape width="340" height="55" topLeftX="540" topLeftY="450" type="text" id="bXp">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.8)" lineSpacing="multiple:1.6">
+          <p>面向代运营商、培训机构、行业协会，提供高比例分成、专属客户成功支持与联合品牌营销资源。</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bXc">
+      <content>
+        <p>最后我们来看谁适合用智莓，以及怎么和我们合作。典型应用场景有四类：第一，跨境品牌出海，多平台多语言一键铺货，AIGC快速产出本地化内容；第二，电商代运营和TP服务商，一人管理多店铺多品牌，内容产能提升10倍，可以服务更多客户而不增加人力；第三，工厂和供应链转型，从代工到做自主品牌，AI帮你降低转型门槛；第四，个人创业者和小团队，极低启动成本，AI就是你的运营团队，一个人也能玩转多平台跨境电商。 合作模式也很灵活。第一种是SaaS订阅，按月按年，基础版、专业版、企业版三档，支持7天免费试用，适合大多数商家。第二种是定制化部署，支持私有化部署、专属模型微调、定制功能开发，适合中大型企业和有特殊数据合规需求的客户。第三种是渠道合作伙伴计划，面向代运营商、培训机构、行业协会，提供高比例分成、专属客户成功支持和联合品牌营销资源。无论你是哪种规模、哪种类型的客户，我们都有适合你的合作方式。</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWG">
+    <style>
+      <fill id="fWG">
+        <fillColor color="rgba(250, 248, 245, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="800" height="50" topLeftX="80" topLeftY="80" type="text" id="bXK">
+        <content textType="caption" fontSize="14" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="4" textAlign="center" wrap="false">
+          <p>READY TO GET STARTED?</p>
+        </content>
+      </shape>
+      <shape width="800" height="70" topLeftX="80" topLeftY="130" type="text" id="bXo">
+        <content textType="title" fontSize="40" fontFamily="思源黑体" color="rgba(26, 26, 46, 1)" bold="true" textAlign="center">
+          <p>让 AI 成为你的电商增长引擎</p>
+        </content>
+      </shape>
+      <line id="bXH" startX="430" startY="215" endX="530.0049998750062" endY="215">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="600" height="50" topLeftX="180" topLeftY="240" type="text" id="bXM">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.749)" lineSpacing="multiple:1.7" textAlign="center">
+          <p>立即开启 7 天免费试用，体验 AI 驱动的跨境电商全链路运营</p>
+          <p>专业团队一对一指导，30 分钟完成从接入到首款商品上架</p>
+        </content>
+      </shape>
+      <shape width="400" height="60" topLeftX="280" topLeftY="320" presetHandlers="0" type="rect" id="bXU">
+        <fill>
+          <fillColor color="linear-gradient(135deg,rgba(74, 25, 66, 1) 0%,rgba(123, 45, 91, 1) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="400" height="30" topLeftX="280" topLeftY="335" type="text" id="bXB">
+        <content textType="sub-headline" fontSize="18" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" textAlign="center">
+          <p>扫码预约产品演示 / 免费试用</p>
+        </content>
+      </shape>
+      <line id="bXF" startX="200" startY="420" endX="760.0008928564312" endY="420">
+        <border color="rgba(61, 61, 78, 0.1)" width="1"/>
+      </line>
+      <shape width="220" height="25" topLeftX="120" topLeftY="445" type="text" id="bXr">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)" textAlign="center">
+          <p>官方网站</p>
+        </content>
+      </shape>
+      <shape width="220" height="25" topLeftX="120" topLeftY="470" type="text" id="bXW">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true" textAlign="center">
+          <p>www.zhimei.tech</p>
+        </content>
+      </shape>
+      <shape width="220" height="25" topLeftX="370" topLeftY="445" type="text" id="bXN">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)" textAlign="center">
+          <p>商务合作</p>
+        </content>
+      </shape>
+      <shape width="220" height="25" topLeftX="370" topLeftY="470" type="text" id="bXL">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true" textAlign="center">
+          <p>business@zhimei.tech</p>
+        </content>
+      </shape>
+      <shape width="220" height="25" topLeftX="620" topLeftY="445" type="text" id="bXk">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(61, 61, 78, 0.6)" textAlign="center">
+          <p>微信公众号</p>
+        </content>
+      </shape>
+      <shape width="220" height="25" topLeftX="620" topLeftY="470" type="text" id="bXy">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(74, 25, 66, 1)" bold="true" textAlign="center">
+          <p>智莓AI创投融资圈</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bXn">
+      <content>
+        <p>最后，如果你对智莓AI Agent感兴趣，我们提供7天免费试用，专业团队一对一指导，30分钟就能完成从接入到首款商品上架。你可以通过屏幕上的三种方式联系我们：访问官网www.zhimei.tech，发邮件到business@zhimei.tech，或者关注我们的微信公众号&quot;智莓AI创投融资圈&quot;。我们期待和你一起，用AI驱动跨境电商的新一轮增长。谢谢大家！</p>
+      </content>
+    </note>
+  </slide>
+  <slide id="pWe">
+    <style>
+      <fill id="fWe">
+        <fillColor color="linear-gradient(135deg,rgba(20, 8, 24, 1) 0%,rgba(50, 17, 44, 1) 50%,rgba(80, 30, 60, 1) 100%)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="800" height="80" topLeftX="80" topLeftY="180" type="text" id="bXS">
+        <content textType="title" fontSize="64" fontFamily="思源黑体" color="rgba(255, 255, 255, 1)" bold="true" letterSpacing="4" textAlign="center">
+          <p>THANK YOU</p>
+        </content>
+      </shape>
+      <line id="bXe" startX="430" startY="280" endX="530.0049998750062" endY="280">
+        <border color="rgba(201, 169, 97, 1)" width="3"/>
+      </line>
+      <shape width="800" height="40" topLeftX="80" topLeftY="305" type="text" id="bXI">
+        <content textType="sub-headline" fontSize="22" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.851)" bold="true" textAlign="center">
+          <p>感谢聆听，期待与您携手开启 AI 电商新时代</p>
+        </content>
+      </shape>
+      <shape width="800" height="30" topLeftX="80" topLeftY="380" type="text" id="bXg">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(201, 169, 97, 1)" bold="true" letterSpacing="2" textAlign="center">
+          <p>智莓科技 ZHIMEI TECH</p>
+        </content>
+      </shape>
+      <shape width="800" height="25" topLeftX="80" topLeftY="415" type="text" id="bXD">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.502)" textAlign="center">
+          <p>AI + SaaS · 让跨境电商更智能</p>
+        </content>
+      </shape>
+      <shape width="800" height="20" topLeftX="80" topLeftY="490" type="text" id="bXR">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(255, 255, 255, 0.302)" textAlign="center">
+          <p>www.zhimei.tech · business@zhimei.tech</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bXh">
+      <content>
+        <p>以上就是智莓电商营销AI Agent的完整产品介绍。从行业痛点到产品功能，从技术底座到客户价值，从应用场景到合作模式，我们相信智莓AI Agent能够真正帮助跨境电商商家降本增效、实现增长。感谢大家的聆听，欢迎随时交流，期待与您携手开启AI电商的新时代。谢谢！</p>
+      </content>
+    </note>
+  </slide>
+</presentation>

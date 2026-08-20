@@ -1,0 +1,43 @@
+<slide>
+  <data>
+    <img src="FleUbPsHwoa8P6xUSQZc1VYHnGh" topLeftX="0" topLeftY="0" width="960" height="540"/>
+    <shape type="rect" topLeftX="0" topLeftY="0" width="960" height="540">
+      <fill>
+        <fillColor color="linear-gradient(135deg,rgba(26,10,30,0.75) 0%,rgba(74,25,66,0.55) 50%,rgba(123,45,91,0.4) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="160" width="800" height="60">
+      <content textType="caption" fontSize="16" color="rgba(201,169,97,1)" letterSpacing="4" bold="true">
+        <p>ZHIMEI AI · CROSS-BORDER E-COMMERCE</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="210" width="800" height="100">
+      <content textType="title" fontSize="52" color="rgba(255,255,255,1)" letterSpacing="2" bold="true" fontFamily="思源黑体">
+        <p>智莓电商营销 AI Agent</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="310" width="700" height="50">
+      <content textType="sub-headline" fontSize="22" color="rgba(255,255,255,0.85)" letterSpacing="1">
+        <p>让 AI 成为你的跨境电商全域增长引擎</p>
+      </content>
+    </shape>
+    <line startX="80" startY="380" endX="180" endY="380">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="400" width="500" height="30">
+      <content textType="body" fontSize="14" color="rgba(255,255,255,0.7)">
+        <p>智能选品 · AIGC内容工厂 · 全域营销 · 数据洞察 · 多语言全球化</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="480" width="400" height="24">
+      <content textType="caption" fontSize="12" color="rgba(255,255,255,0.5)">
+        <p>智莓科技 ZHIMEI TECH · 2026</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>各位好，今天我为大家介绍智莓科技倾力打造的电商营销AI Agent产品。在跨境电商竞争日益激烈的今天，我们希望通过AI技术，帮助商家实现从选品、内容生成、营销推广到数据分析的全链路智能化升级。接下来我将从行业现状、产品功能、技术优势和合作模式四个维度，为大家详细解读这款产品。</p>
+    </content>
+  </note>
+</slide>

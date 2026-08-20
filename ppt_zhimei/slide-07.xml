@@ -1,0 +1,135 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="50" width="200" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>03 / 功能详解 · 模块一</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="85" width="600" height="45">
+      <content textType="title" fontSize="30" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>AI 智能选品：从发现爆款到一键上架</p>
+      </content>
+    </shape>
+    <line startX="80" startY="145" endX="160" endY="145">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="rect" topLeftX="80" topLeftY="180" width="200" height="300">
+      <fill>
+        <fillColor color="rgba(74,25,66,0.04)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="200" width="160" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(74,25,66,1)" bold="true">
+        <p>市场趋势分析</p>
+      </content>
+    </shape>
+    <line startX="100" startY="235" endX="140" endY="235">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="100" topLeftY="250" width="160" height="110">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>· 多平台热销榜实时监控</p>
+        <p>· 品类增长趋势预测</p>
+        <p>· 关键词热度与竞争度分析</p>
+        <p>· 季节性选品提醒</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="400" width="160" height="60">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">输出：</span>高潜力品类清单</p>
+        <p><span bold="true">效率：</span>人工调研的10倍速</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="300" topLeftY="180" width="200" height="300">
+      <fill>
+        <fillColor color="rgba(74,25,66,0.04)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="320" topLeftY="200" width="160" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(74,25,66,1)" bold="true">
+        <p>爆品深度挖掘</p>
+      </content>
+    </shape>
+    <line startX="320" startY="235" endX="360" endY="235">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="320" topLeftY="250" width="160" height="110">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>· 爆款商品画像拆解</p>
+        <p>· 卖点与评价语义分析</p>
+        <p>· 竞品价格带与利润测算</p>
+        <p>· 差异化机会点识别</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="320" topLeftY="400" width="160" height="60">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">输出：</span>爆品候选池+评分</p>
+        <p><span bold="true">命中率：</span>提升至35%+</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="520" topLeftY="180" width="200" height="300">
+      <fill>
+        <fillColor color="rgba(74,25,66,0.04)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="200" width="160" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(74,25,66,1)" bold="true">
+        <p>AI 生成商品信息</p>
+      </content>
+    </shape>
+    <line startX="540" startY="235" endX="580" endY="235">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="540" topLeftY="250" width="160" height="110">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.7">
+        <p>· 多语言商品标题自动生成</p>
+        <p>· 6大卖点深度描述</p>
+        <p>· 建议售价与利润分析</p>
+        <p>· 商品主图AI生成</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="400" width="160" height="60">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">输出：</span>完整商品详情页</p>
+        <p><span bold="true">耗时：</span>从3天到3分钟</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="740" topLeftY="180" width="160" height="300">
+      <fill>
+        <fillColor color="linear-gradient(180deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="755" topLeftY="200" width="130" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true">
+        <p>一键多平台上架</p>
+      </content>
+    </shape>
+    <line startX="755" startY="235" endX="795" endY="235">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="755" topLeftY="250" width="130" height="110">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.85)" lineSpacing="multiple:1.7">
+        <p>· 选择目标店铺</p>
+        <p>· 自动适配平台规则</p>
+        <p>· 多语言自动翻译</p>
+        <p>· 一键发布上线</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="755" topLeftY="400" width="130" height="60">
+      <content textType="body" fontSize="11" color="rgba(201,169,97,1)" lineSpacing="multiple:1.5">
+        <p><span bold="true">支持：</span>10+主流平台</p>
+        <p><span bold="true">效率：</span>1人顶10人运营</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>第一个核心模块是AI智能选品。这个模块解决的是"卖什么"和"怎么快速上架"的问题。它分为四个环节：第一步，市场趋势分析，AI实时监控各平台热销榜、预测品类增长趋势、分析关键词热度，帮你找到高潜力赛道，效率是人工调研的10倍；第二步，爆品深度挖掘，AI拆解爆款商品画像、分析用户评价语义、测算竞品价格带和利润空间，帮你识别差异化机会，爆款命中率从不到10%提升到35%以上；第三步，AI生成商品信息，包括多语言标题、六大卖点描述、建议售价、甚至商品主图，原来需要3天的工作现在3分钟完成；第四步，一键多平台上架，选择目标店铺后，AI自动适配各平台规则、自动翻译多语言，一键发布。整个流程形成了从发现机会到商品上线的完整闭环。</p>
+    </content>
+  </note>
+</slide>

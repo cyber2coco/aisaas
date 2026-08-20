@@ -1,0 +1,47 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "build": "nest build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@nestjs-modules/ioredis": "^2.2.1",
+    "@nestjs/common": "^11.1.21",
+    "@nestjs/config": "^4.0.4",
+    "@nestjs/core": "^11.1.21",
+    "@nestjs/jwt": "^11.0.2",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.21",
+    "@nestjs/typeorm": "^11.0.1",
+    "axios": "^1.16.1",
+    "bcryptjs": "^3.0.3",
+    "ioredis": "^5.10.1",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.21.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "^1.0.0",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.21",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^25.9.1",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}

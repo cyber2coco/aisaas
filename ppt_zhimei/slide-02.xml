@@ -1,0 +1,138 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="60" width="300" height="80">
+      <content textType="title" fontSize="48" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体">
+        <p>目录</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="130" width="300" height="30">
+      <content textType="caption" fontSize="14" color="rgba(201,169,97,1)" letterSpacing="3" bold="true">
+        <p>CONTENTS</p>
+      </content>
+    </shape>
+    <line startX="80" startY="175" endX="200" endY="175">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="420" width="350" height="60">
+      <content textType="body" fontSize="13" color="rgba(61,61,78,0.6)" lineSpacing="multiple:1.6">
+        <p>从行业趋势到产品落地，</p>
+        <p>全方位解读智莓AI Agent的商业价值</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="440" topLeftY="70" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="72" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>行业洞察</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="100" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>跨境电商的机遇与挑战</p>
+      </content>
+    </shape>
+    <line startX="440" startY="135" endX="900" endY="135">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="440" topLeftY="150" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="152" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>产品概览</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="180" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>智莓AI Agent核心能力与定位</p>
+      </content>
+    </shape>
+    <line startX="440" startY="215" endX="900" endY="215">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="440" topLeftY="230" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="232" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>功能详解</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="260" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>五大模块实现电商全链路智能化</p>
+      </content>
+    </shape>
+    <line startX="440" startY="295" endX="900" endY="295">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="440" topLeftY="310" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>04</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="312" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>技术底座</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="340" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>AI模型矩阵与多语言全球化能力</p>
+      </content>
+    </shape>
+    <line startX="440" startY="375" endX="900" endY="375">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="440" topLeftY="390" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>05</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="392" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>客户价值</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="420" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>效率提升与成本优化的量化收益</p>
+      </content>
+    </shape>
+    <line startX="440" startY="455" endX="900" endY="455">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="440" topLeftY="470" width="60" height="40">
+      <content textType="headline" fontSize="28" color="rgba(201,169,97,1)" bold="true" fontFamily="思源宋体">
+        <p>06</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="472" width="380" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>合作模式</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="510" topLeftY="500" width="380" height="20">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)">
+        <p>灵活的商业合作与服务方案</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>今天的分享将分为六个部分。首先我们来看跨境电商行业的现状和痛点，然后介绍智莓AI Agent的产品定位和核心能力，接着会详细拆解五大功能模块，之后聊聊我们的技术底座和多语言能力，再用数据说话展示客户能获得的实际价值，最后介绍我们的合作模式。整个过程大约20分钟，欢迎大家随时提问。</p>
+    </content>
+  </note>
+</slide>

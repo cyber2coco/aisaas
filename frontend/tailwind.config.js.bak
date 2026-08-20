@@ -1,0 +1,94 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        // 科技感主色调
+        primary: {
+          50: '#E6F7FF',
+          100: '#BAE7FF',
+          200: '#7CCFFF',
+          300: '#36CFC9',
+          400: '#00D4FF',
+          500: '#0099FF',
+          600: '#0066FF',
+          700: '#0047CC',
+          800: '#002E99',
+          900: '#001A66',
+        },
+        // 辅助色 - 紫色渐变
+        accent: {
+          50: '#F5F0FF',
+          100: '#E9D8FF',
+          200: '#D4B0FF',
+          300: '#B57AFF',
+          400: '#9333EA',
+          500: '#7928CA',
+          600: '#6B21A8',
+          700: '#581C87',
+          800: '#4C1D95',
+          900: '#3B0764',
+        },
+        // 深色背景
+        dark: {
+          50: '#F8FAFC',
+          100: '#F1F5F9',
+          200: '#E2E8F0',
+          300: '#CBD5E1',
+          400: '#94A3B8',
+          500: '#64748B',
+          600: '#475569',
+          700: '#334155',
+          800: '#1E293B',
+          900: '#0F172A',
+          950: '#0A0E17',
+        },
+        // 霓虹色
+        neon: {
+          cyan: '#00FFFF',
+          blue: '#0088FF',
+          purple: '#AA00FF',
+          pink: '#FF00AA',
+        }
+      },
+      fontFamily: {
+        inter: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+      },
+      boxShadow: {
+        'glow': '0 0 20px rgba(0, 212, 255, 0.3)',
+        'glow-lg': '0 0 40px rgba(0, 212, 255, 0.4)',
+        'glow-purple': '0 0 20px rgba(147, 51, 234, 0.3)',
+        'card': '0 4px 24px rgba(0, 0, 0, 0.1)',
+        'card-dark': '0 4px 24px rgba(0, 0, 0, 0.4)',
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, #00D4FF 0%, #0066FF 100%)',
+        'gradient-accent': 'linear-gradient(135deg, #9333EA 0%, #EC4899 100%)',
+        'gradient-dark': 'linear-gradient(135deg, #0F172A 0%, #1E293B 100%)',
+        'gradient-glass': 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+      },
+      animation: {
+        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'glow': 'glow 2s ease-in-out infinite alternate',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        glow: {
+          '0%': { boxShadow: '0 0 5px rgba(0, 212, 255, 0.5)' },
+          '100%': { boxShadow: '0 0 20px rgba(0, 212, 255, 0.8)' },
+        },
+      },
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,42 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="linear-gradient(135deg,rgba(20,8,24,1) 0%,rgba(50,17,44,1) 50%,rgba(80,30,60,1) 100%)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="180" width="800" height="80">
+      <content textType="title" fontSize="64" color="rgba(255,255,255,1)" bold="true" fontFamily="思源黑体" textAlign="center" letterSpacing="4">
+        <p>THANK YOU</p>
+      </content>
+    </shape>
+    <line startX="430" startY="280" endX="530" endY="280">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="305" width="800" height="40">
+      <content textType="sub-headline" fontSize="22" color="rgba(255,255,255,0.85)" textAlign="center">
+        <p>感谢聆听，期待与您携手开启 AI 电商新时代</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="380" width="800" height="30">
+      <content textType="body" fontSize="14" color="rgba(201,169,97,1)" textAlign="center" letterSpacing="2" bold="true">
+        <p>智莓科技 ZHIMEI TECH</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="415" width="800" height="25">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.5)" textAlign="center">
+        <p>AI + SaaS · 让跨境电商更智能</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="490" width="800" height="20">
+      <content textType="caption" fontSize="10" color="rgba(255,255,255,0.3)" textAlign="center">
+        <p>www.zhimei.tech · business@zhimei.tech</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>以上就是智莓电商营销AI Agent的完整产品介绍。从行业痛点到产品功能，从技术底座到客户价值，从应用场景到合作模式，我们相信智莓AI Agent能够真正帮助跨境电商商家降本增效、实现增长。感谢大家的聆听，欢迎随时交流，期待与您携手开启AI电商的新时代。谢谢！</p>
+    </content>
+  </note>
+</slide>

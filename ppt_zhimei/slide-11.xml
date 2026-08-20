@@ -1,0 +1,133 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="40" width="200" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>05 / 竞争优势</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="72" width="700" height="40">
+      <content textType="title" fontSize="28" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>为什么选择智莓 AI Agent？</p>
+      </content>
+    </shape>
+    <line startX="80" startY="125" endX="160" endY="125">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <table topLeftX="80" topLeftY="155" width="820" height="340">
+      <colgroup>
+        <col width="200"/>
+        <col width="200"/>
+        <col width="200"/>
+        <col width="220"/>
+      </colgroup>
+      <tr height="48">
+        <td>
+          <fill><fillColor color="rgba(61,61,78,0.08)"/></fill>
+          <content textType="body" fontSize="13" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>对比维度</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(61,61,78,0.08)"/></fill>
+          <content textType="body" fontSize="13" bold="true" color="rgba(61,61,78,0.7)" textAlign="center"><p>传统人工运营</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(61,61,78,0.08)"/></fill>
+          <content textType="body" fontSize="13" bold="true" color="rgba(61,61,78,0.7)" textAlign="center"><p>单点AI工具</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,1)"/></fill>
+          <content textType="body" fontSize="13" bold="true" color="rgba(201,169,97,1)" textAlign="center"><p>智莓 AI Agent</p></content>
+        </td>
+      </tr>
+      <tr height="48">
+        <td>
+          <content textType="body" fontSize="12" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>选品效率</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>人工调研 3-5 天</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>仅提供数据，需人工分析</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,0.06)"/></fill>
+          <content textType="body" fontSize="12" bold="true" color="rgba(74,25,66,1)" textAlign="center"><p>AI分析 5 分钟，命中率35%+</p></content>
+        </td>
+      </tr>
+      <tr height="48">
+        <td>
+          <content textType="body" fontSize="12" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>内容生产成本</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>500+ 元 / SKU</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>50-100 元 / SKU，单工具</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,0.06)"/></fill>
+          <content textType="body" fontSize="12" bold="true" color="rgba(74,25,66,1)" textAlign="center"><p>5 元以内 / SKU，图文视频全包</p></content>
+        </td>
+      </tr>
+      <tr height="48">
+        <td>
+          <content textType="body" fontSize="12" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>多语言支持</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>需招多语种团队，成本高</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>部分支持，需翻译工具配合</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,0.06)"/></fill>
+          <content textType="body" fontSize="12" bold="true" color="rgba(74,25,66,1)" textAlign="center"><p>8种语言全链路原生支持</p></content>
+        </td>
+      </tr>
+      <tr height="48">
+        <td>
+          <content textType="body" fontSize="12" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>平台覆盖</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>单平台专人运营</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>通常仅支持1-2个平台</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,0.06)"/></fill>
+          <content textType="body" fontSize="12" bold="true" color="rgba(74,25,66,1)" textAlign="center"><p>10+平台统一管理，一键同步</p></content>
+        </td>
+      </tr>
+      <tr height="48">
+        <td>
+          <content textType="body" fontSize="12" bold="true" color="rgba(26,26,46,1)" textAlign="center"><p>数据闭环</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>数据分散，决策靠经验</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" color="rgba(61,61,78,0.7)" textAlign="center"><p>单点数据，无法形成闭环</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(74,25,66,0.06)"/></fill>
+          <content textType="body" fontSize="12" bold="true" color="rgba(74,25,66,1)" textAlign="center"><p>选品-内容-营销-数据全链路闭环</p></content>
+        </td>
+      </tr>
+    </table>
+    <shape type="text" topLeftX="80" topLeftY="510" width="800" height="20">
+      <content textType="caption" fontSize="10" color="rgba(61,61,78,0.4)">
+        <p>数据基于智莓科技客户实测与行业公开调研整理，具体效果因品类与运营基础而异</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>接下来我们做一个横向对比。和传统人工运营比，智莓AI Agent在选品效率上从3-5天缩短到5分钟，内容生产成本从500元以上降到5元以内，多语言不需要专门招团队，10多个平台一个后台统一管理，数据形成完整闭环。和市面上的单点AI工具比，我们的优势在于"全链路"——很多工具只能做一件事，比如只能生成图片或者只能写文案，而智莓是从选品、内容、营销到数据分析的完整闭环，数据互通，流程串联。而且我们的模型矩阵接入了18个以上的主流AI模型，客户不需要自己去对接各个API，在我们的平台上就能用到最好的能力。简单说，传统方式是"人找工具干活"，智莓是"AI Agent自动干活，人只做决策"。</p>
+    </content>
+  </note>
+</slide>

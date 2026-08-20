@@ -1,0 +1,116 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="50" width="160" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>01 / 行业洞察</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="85" width="700" height="50">
+      <content textType="title" fontSize="32" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>传统电商运营的四大核心痛点</p>
+      </content>
+    </shape>
+    <line startX="80" startY="150" endX="160" endY="150">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="170" width="600" height="30">
+      <content textType="body" fontSize="14" color="rgba(61,61,78,0.7)">
+        <p>人力密集、效率低下、成本高企——跨境电商运营正面临结构性挑战</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="225" width="400" height="130">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="240" width="50" height="40">
+      <content textType="title" fontSize="32" color="rgba(74,25,66,0.15)" bold="true" fontFamily="思源宋体">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="155" topLeftY="245" width="300" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>选品难 · 命中率低</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="155" topLeftY="280" width="300" height="60">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>依赖个人经验拍脑袋决策，爆款命中率不足10%；市场趋势研判滞后，库存积压风险高，新品测试周期长、成本高。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="500" topLeftY="225" width="400" height="130">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="240" width="50" height="40">
+      <content textType="title" fontSize="32" color="rgba(74,25,66,0.15)" bold="true" fontFamily="思源宋体">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="575" topLeftY="245" width="300" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>内容贵 · 难以规模化</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="575" topLeftY="280" width="300" height="60">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>主图拍摄、视频制作、文案撰写单SKU成本超500元，周期3-7天；多平台多语言内容适配成本倍增，难以快速铺量。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="80" topLeftY="375" width="400" height="130">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="390" width="50" height="40">
+      <content textType="title" fontSize="32" color="rgba(74,25,66,0.15)" bold="true" fontFamily="思源宋体">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="155" topLeftY="395" width="300" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>营销累 · 人力成本高</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="155" topLeftY="430" width="300" height="60">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>多平台运营、多语言客服、KOL对接消耗大量人力；投放效果难以量化归因，ROI优化依赖人工试错，反应速度慢。</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="500" topLeftY="375" width="400" height="130">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.1)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="520" topLeftY="390" width="50" height="40">
+      <content textType="title" fontSize="32" color="rgba(74,25,66,0.15)" bold="true" fontFamily="思源宋体">
+        <p>04</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="575" topLeftY="395" width="300" height="28">
+      <content textType="sub-headline" fontSize="18" color="rgba(26,26,46,1)" bold="true">
+        <p>数据散 · 决策滞后</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="575" topLeftY="430" width="300" height="60">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.6">
+        <p>各平台数据割裂，周报月报靠人工汇总；市场货盘、竞品动态、KOL表现缺乏实时洞察，决策往往滞后于市场变化。</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>机遇背后是严峻的挑战。我们调研了上百家跨境电商企业，总结出四大核心痛点：第一，选品难，靠经验拍脑袋，爆款命中率不到10%，库存风险大；第二，内容贵，一套主图加视频加文案，单SKU成本超过500元，还要3到7天周期，多语言多平台更是成本倍增；第三，营销累，运营、客服、投放、KOL对接全靠人堆，人力成本居高不下；第四，数据散，各平台数据不打通，决策全靠感觉，反应永远慢半拍。这四个痛点，本质上都是"人"的瓶颈——而这正是AI可以大展身手的地方。</p>
+    </content>
+  </note>
+</slide>

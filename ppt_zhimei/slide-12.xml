@@ -1,0 +1,102 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="linear-gradient(135deg,rgba(26,10,30,1) 0%,rgba(74,25,66,1) 50%,rgba(123,45,91,1) 100%)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="50" width="200" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>05 / 客户价值</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="85" width="700" height="45">
+      <content textType="title" fontSize="30" color="rgba(255,255,255,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>用数据说话：智莓为客户创造的真实价值</p>
+      </content>
+    </shape>
+    <line startX="80" startY="145" endX="160" endY="145">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="195" width="200" height="80">
+      <content textType="title" fontSize="64" color="rgba(201,169,97,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>70%</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="280" width="200" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true">
+        <p>运营人力成本节省</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="315" width="200" height="50">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.6)" lineSpacing="multiple:1.6">
+        <p>AI替代重复性运营工作，1人可管理原需5-10人的店铺规模</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="310" topLeftY="195" width="200" height="80">
+      <content textType="title" fontSize="64" color="rgba(201,169,97,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>99%</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="310" topLeftY="280" width="200" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true">
+        <p>内容生产成本降低</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="310" topLeftY="315" width="200" height="50">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.6)" lineSpacing="multiple:1.6">
+        <p>单SKU全套内容从500+元降至5元以内，周期从3-7天缩至10分钟</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="195" width="200" height="80">
+      <content textType="title" fontSize="64" color="rgba(201,169,97,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>10x</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="280" width="200" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true">
+        <p>运营效率提升</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="540" topLeftY="315" width="200" height="50">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.6)" lineSpacing="multiple:1.6">
+        <p>选品调研、周报生成、文案产出等核心环节效率提升5-10倍</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="750" topLeftY="195" width="170" height="80">
+      <content textType="title" fontSize="56" color="rgba(201,169,97,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>35%+</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="750" topLeftY="280" width="170" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,1)" bold="true">
+        <p>爆款命中率</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="750" topLeftY="315" width="170" height="50">
+      <content textType="body" fontSize="12" color="rgba(255,255,255,0.6)" lineSpacing="multiple:1.6">
+        <p>AI数据驱动选品，爆款命中率从行业平均不足10%提升至35%以上</p>
+      </content>
+    </shape>
+    <line startX="80" startY="400" endX="900" endY="400">
+      <border color="rgba(255,255,255,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="425" width="800" height="30">
+      <content textType="sub-headline" fontSize="16" color="rgba(255,255,255,0.9)" bold="true" textAlign="center">
+        <p>典型客户：月销百万级跨境服饰卖家，使用3个月后</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="465" width="800" height="50">
+      <content textType="body" fontSize="13" color="rgba(255,255,255,0.6)" textAlign="center" lineSpacing="multiple:1.6">
+        <p>运营团队从8人精简至3人，月内容产出从200SKU提升至2000SKU，新品测试周期从2周缩短至3天，整体ROI提升40%</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>讲了这么多功能，最终还是要回到价值本身。这是我们基于客户实测数据总结的四个核心价值指标。第一，运营人力成本节省70%，AI替代了大量重复性工作，1个人可以管理原来需要5到10人的店铺规模。第二，内容生产成本降低99%，单SKU全套内容从500多元降到5元以内，周期从3到7天缩短到10分钟。第三，运营效率提升10倍，选品调研、周报生成、文案产出这些核心环节效率提升5到10倍。第四，爆款命中率提升到35%以上，行业平均不到10%，我们用数据驱动的选品方法帮客户大幅提高了选品成功率。
+
+下面是一个典型客户案例：一个月销百万级的跨境服饰卖家，使用智莓3个月后，运营团队从8人精简到3人，月内容产出从200个SKU提升到2000个，新品测试周期从2周缩短到3天，整体ROI提升了40%。这些不是理论数字，是客户真实跑出来的结果。</p>
+    </content>
+  </note>
+</slide>

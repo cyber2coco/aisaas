@@ -1,0 +1,76 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="80" width="800" height="50">
+      <content textType="caption" fontSize="14" color="rgba(201,169,97,1)" letterSpacing="4" bold="true" textAlign="center" wrap="false">
+        <p>READY TO GET STARTED?</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="130" width="800" height="70">
+      <content textType="title" fontSize="40" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" textAlign="center">
+        <p>让 AI 成为你的电商增长引擎</p>
+      </content>
+    </shape>
+    <line startX="430" startY="215" endX="530" endY="215">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="text" topLeftX="180" topLeftY="240" width="600" height="50">
+      <content textType="body" fontSize="15" color="rgba(61,61,78,0.75)" textAlign="center" lineSpacing="multiple:1.7">
+        <p>立即开启 7 天免费试用，体验 AI 驱动的跨境电商全链路运营</p>
+        <p>专业团队一对一指导，30 分钟完成从接入到首款商品上架</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="280" topLeftY="320" width="400" height="60">
+      <fill>
+        <fillColor color="linear-gradient(135deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="280" topLeftY="335" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" color="rgba(255,255,255,1)" bold="true" textAlign="center">
+        <p>扫码预约产品演示 / 免费试用</p>
+      </content>
+    </shape>
+    <line startX="200" startY="420" endX="760" endY="420">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="120" topLeftY="445" width="220" height="25">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)" textAlign="center">
+        <p>官方网站</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="120" topLeftY="470" width="220" height="25">
+      <content textType="body" fontSize="14" color="rgba(74,25,66,1)" bold="true" textAlign="center">
+        <p>www.zhimei.tech</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="370" topLeftY="445" width="220" height="25">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)" textAlign="center">
+        <p>商务合作</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="370" topLeftY="470" width="220" height="25">
+      <content textType="body" fontSize="14" color="rgba(74,25,66,1)" bold="true" textAlign="center">
+        <p>business@zhimei.tech</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="620" topLeftY="445" width="220" height="25">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.6)" textAlign="center">
+        <p>微信公众号</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="620" topLeftY="470" width="220" height="25">
+      <content textType="body" fontSize="14" color="rgba(74,25,66,1)" bold="true" textAlign="center">
+        <p>智莓AI创投融资圈</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>最后，如果你对智莓AI Agent感兴趣，我们提供7天免费试用，专业团队一对一指导，30分钟就能完成从接入到首款商品上架。你可以通过屏幕上的三种方式联系我们：访问官网www.zhimei.tech，发邮件到business@zhimei.tech，或者关注我们的微信公众号"智莓AI创投融资圈"。我们期待和你一起，用AI驱动跨境电商的新一轮增长。谢谢大家！</p>
+    </content>
+  </note>
+</slide>

@@ -1,0 +1,154 @@
+<slide>
+  <style>
+    <fill>
+      <fillColor color="rgb(250,248,245)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="40" width="280" height="30">
+      <content textType="caption" fontSize="13" color="rgba(201,169,97,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>04 / 技术底座 · 全球化能力</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="72" width="700" height="40">
+      <content textType="title" fontSize="28" color="rgba(26,26,46,1)" bold="true" fontFamily="思源黑体" wrap="false">
+        <p>多平台统一管理 + 多语言全球化 + AI模型矩阵</p>
+      </content>
+    </shape>
+    <line startX="80" startY="125" endX="160" endY="125">
+      <border color="rgba(201,169,97,1)" width="3"/>
+    </line>
+    <shape type="rect" topLeftX="80" topLeftY="150" width="270" height="360">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="168" width="230" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>10+ 电商平台对接</p>
+      </content>
+    </shape>
+    <line startX="100" startY="203" endX="140" endY="203">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="100" topLeftY="218" width="230" height="80">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.8">
+        <p><span bold="true" color="rgba(26,26,46,1)">国内平台：</span>淘宝、天猫、京东、拼多多、抖音小店</p>
+        <p><span bold="true" color="rgba(26,26,46,1)">跨境平台：</span>亚马逊、Shopee、Lazada、速卖通、eBay、TikTok Shop</p>
+      </content>
+    </shape>
+    <line startX="100" startY="310" endX="330" endY="310">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="100" topLeftY="325" width="230" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>统一管理能力</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="100" topLeftY="355" width="230" height="130">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.7">
+        <p>· 多店铺统一后台管理</p>
+        <p>· 商品信息一键同步多平台</p>
+        <p>· 各平台数据自动汇总打通</p>
+        <p>· 平台规则自动适配</p>
+        <p>· 订单与库存统一视图</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="370" topLeftY="150" width="270" height="360">
+      <fill>
+        <fillColor color="rgba(255,255,255,1)"/>
+      </fill>
+      <border color="rgba(74,25,66,0.12)" width="1"/>
+    </shape>
+    <shape type="text" topLeftX="390" topLeftY="168" width="230" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(74,25,66,1)" bold="true">
+        <p>8 种语言全球化</p>
+      </content>
+    </shape>
+    <line startX="390" startY="203" endX="430" endY="203">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="390" topLeftY="218" width="230" height="100">
+      <content textType="body" fontSize="12" color="rgba(61,61,78,0.8)" lineSpacing="multiple:1.8">
+        <p>中文简体 · English · 日本語 · 한국어</p>
+        <p>Español · ไทย · Tiếng Việt · Bahasa Indonesia</p>
+      </content>
+    </shape>
+    <line startX="390" startY="330" endX="620" endY="330">
+      <border color="rgba(61,61,78,0.1)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="390" topLeftY="345" width="230" height="24">
+      <content textType="body" fontSize="13" color="rgba(26,26,46,1)" bold="true">
+        <p>全链路多语言</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="390" topLeftY="375" width="230" height="110">
+      <content textType="body" fontSize="11" color="rgba(61,61,78,0.75)" lineSpacing="multiple:1.7">
+        <p>· 商品信息自动翻译本地化</p>
+        <p>· 营销文案母语级生成</p>
+        <p>· 客服话术多语言适配</p>
+        <p>· 内容生成支持多语言提示词</p>
+        <p>· 界面语言一键切换</p>
+      </content>
+    </shape>
+    <shape type="rect" topLeftX="660" topLeftY="150" width="240" height="360">
+      <fill>
+        <fillColor color="linear-gradient(180deg,rgba(74,25,66,1) 0%,rgba(123,45,91,1) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="168" width="200" height="28">
+      <content textType="sub-headline" fontSize="17" color="rgba(255,255,255,1)" bold="true">
+        <p>AI 模型矩阵</p>
+      </content>
+    </shape>
+    <line startX="680" startY="203" endX="720" endY="203">
+      <border color="rgba(201,169,97,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="680" topLeftY="220" width="200" height="22">
+      <content textType="body" fontSize="12" color="rgba(201,169,97,1)" bold="true">
+        <p>大语言模型（6+）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="245" width="200" height="35">
+      <content textType="body" fontSize="10" color="rgba(255,255,255,0.75)" lineSpacing="multiple:1.5">
+        <p>通义千问、GPT-4o、Claude、文心一言、豆包、Gemini</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="290" width="200" height="22">
+      <content textType="body" fontSize="12" color="rgba(201,169,97,1)" bold="true">
+        <p>生图模型（6+）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="315" width="200" height="35">
+      <content textType="body" fontSize="10" color="rgba(255,255,255,0.75)" lineSpacing="multiple:1.5">
+        <p>Stable Diffusion、Midjourney、DALL-E 3、通义万相、可灵、即梦</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="360" width="200" height="22">
+      <content textType="body" fontSize="12" color="rgba(201,169,97,1)" bold="true">
+        <p>生视频模型（6+）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="385" width="200" height="35">
+      <content textType="body" fontSize="10" color="rgba(255,255,255,0.75)" lineSpacing="multiple:1.5">
+        <p>Runway、Pika、可灵、Sora、通义视频、Vidu</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="680" topLeftY="440" width="200" height="50">
+      <content textType="body" fontSize="10" color="rgba(255,255,255,0.6)" lineSpacing="multiple:1.5">
+        <p>模型统一调度，按场景智能路由</p>
+        <p>支持自定义模型接入与微调</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>讲完功能模块，我们来看支撑这些能力的技术底座。第一块是多平台统一管理，我们对接了10多个主流电商平台，国内有淘宝、天猫、京东、拼多多、抖音小店，跨境有亚马逊、Shopee、Lazada、速卖通、eBay、TikTok Shop。一个后台统一管理所有店铺，商品信息一键同步，数据自动汇总，平台规则自动适配。
+
+第二块是多语言全球化能力，支持8种语言——中文、英文、日文、韩文、西班牙文、泰文、越南文、印尼文。而且不是简单的翻译，是全链路的多语言：商品信息本地化、营销文案母语级生成、客服话术适配、甚至内容生成都支持多语言提示词。
+
+第三块是AI模型矩阵，这是我们的核心技术壁垒。我们接入了6+大语言模型、6+生图模型、6+生视频模型，总共18个以上的主流AI模型。我们做了统一调度层，会根据不同场景智能路由到最合适的模型，同时也支持客户接入自己的模型或做微调。这意味着客户不需要自己去研究各个模型的API，在智莓的平台上就能用到最好的AI能力。</p>
+    </content>
+  </note>
+</slide>

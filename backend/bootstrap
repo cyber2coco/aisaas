@@ -1,15 +1,15 @@
 #!/bin/bash
 set -e
 
-# 使用 Node.js 18（custom runtime 默认版本太低，不支持 NestJS 11）
-export PATH=/tmp/node18/bin:$PATH
+# 使用 Node.js 16（custom runtime 基础镜像 glibc 版本低，不支持 Node 18+）
+export PATH=/tmp/node16/bin:$PATH
 
-if [ ! -f /tmp/node18/bin/node ]; then
-  echo "Downloading Node.js 18..."
-  curl -sL https://nodejs.org/dist/v18.20.4/node-v18.20.4-linux-x64.tar.xz -o /tmp/node.tar.xz
-  mkdir -p /tmp/node18
-  tar -xf /tmp/node.tar.xz -C /tmp/node18 --strip-components=1
-  echo "Node.js 18 installed"
+if [ ! -f /tmp/node16/bin/node ]; then
+  echo "Downloading Node.js 16..."
+  curl -sL https://nodejs.org/dist/v16.20.2/node-v16.20.2-linux-x64.tar.xz -o /tmp/node.tar.xz
+  mkdir -p /tmp/node16
+  tar -xf /tmp/node.tar.xz -C /tmp/node16 --strip-components=1
+  echo "Node.js 16 installed: $(/tmp/node16/bin/node -v)"
 fi
 
 echo "Starting NestJS server..."

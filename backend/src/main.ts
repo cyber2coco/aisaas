@@ -27,18 +27,22 @@ class AllExceptionsFilter implements ExceptionFilter {
   }
 }
 
-async function bootstrap() {
+let appInstance: any = null;
+
+export async function createApp() {
+  if (appInstance) return appInstance;
+
   const app = await NestFactory.create(AppModule);
-  
+
   // 请求日志中间件
-  app.use((req, res, next) => {
+  app.use((req: any, res: any, next: any) => {
     console.log('请求到达:', req.method, req.path);
     next();
   });
-  
+
   // 全局异常过滤器
   app.useGlobalFilters(new AllExceptionsFilter());
-  
+
   // 开启跨域
   app.enableCors({
     origin: true,
@@ -50,22 +54,30 @@ async function bootstrap() {
 
   // 注册认证中间件
   const jwtService = app.get(JwtService);
-  app.use((req, res, next) => {
-    // 排除不需要认证的接口
+  app.use((req: any, res: any, next: any) => {
     const publicPaths = [
       '/api/auth',
-      '/api/products/models',  // 模型列表是公开的
+      '/api/products/models',
     ];
-    
+
     if (publicPaths.some(path => req.path.startsWith(path))) {
       return next();
     }
     new AuthMiddleware(jwtService).use(req, res, next);
   });
 
+  appInstance = app;
+  return app;
+}
+
+async function bootstrap() {
+  const app = await createApp();
   const port = process.env.PORT || 3000;
   await app.listen(port, '0.0.0.0');
   console.log(`后端服务运行在: http://0.0.0.0:${port}`);
 }
 
-bootstrap();
+// 直接运行时启动服务（本地/自定义运行时）
+if (require.main === module) {
+  bootstrap();
+}

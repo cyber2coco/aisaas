@@ -1,4 +1,4 @@
-# 排除源代码和测试
+# 排除源代码和测试（保留 dist 编译产物）
 src/
 tests/
 *.tsbuildinfo
@@ -19,3 +19,6 @@ README.md
 # 排除 IDE
 .vscode/
 .idea/
+
+# 排除自定义运行时启动脚本（改用 nodejs18 runtime）
+bootstrap

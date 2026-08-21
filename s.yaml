@@ -24,7 +24,7 @@ services:
       function:
         name: ${vars.functionName}
         description: NestJS backend for Zhimei AI Agent
-        runtime: custom
+        runtime: nodejs18
         codeUri: ./backend
         handler: index.handler
         memorySize: 512

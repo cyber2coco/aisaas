@@ -1,3 +1,16 @@
 #!/bin/bash
 set -e
+
+# 使用 Node.js 18（custom runtime 默认版本太低，不支持 NestJS 11）
+export PATH=/tmp/node18/bin:$PATH
+
+if [ ! -f /tmp/node18/bin/node ]; then
+  echo "Downloading Node.js 18..."
+  curl -sL https://nodejs.org/dist/v18.20.4/node-v18.20.4-linux-x64.tar.xz -o /tmp/node.tar.xz
+  mkdir -p /tmp/node18
+  tar -xf /tmp/node.tar.xz -C /tmp/node18 --strip-components=1
+  echo "Node.js 18 installed"
+fi
+
+echo "Starting NestJS server..."
 node dist/main.js

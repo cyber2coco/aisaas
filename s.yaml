@@ -30,7 +30,7 @@ services:
         memorySize: 1024
         timeout: 60
         cpu: 1
-        diskSize: 1024
+        diskSize: 512
         environmentVariables:
           NODE_ENV: production
           JWT_SECRET: zhimei-ai-secret-key-2026-abcdefg

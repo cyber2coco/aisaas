@@ -20,5 +20,5 @@ README.md
 .vscode/
 .idea/
 
-# 排除 HTTP 函数适配层（改用 custom runtime）
-index.js
+# 排除 custom runtime 启动脚本（改用 nodejs16 runtime）
+bootstrap

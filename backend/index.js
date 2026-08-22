@@ -1,32 +1,77 @@
 // 阿里云函数计算 Node.js HTTP 函数适配层
-// 将 FC 的 HTTP 请求转发给 NestJS 应用
+// 通过本地 HTTP 代理方式运行 NestJS，无需修改 NestJS 代码
 
-let nestApp = null;
-let expressApp = null;
+const http = require('http');
 
-async function getNestApp() {
-  if (nestApp) return nestApp;
-  const { createApp } = require('./dist/main');
-  nestApp = await createApp();
-  await nestApp.init();
-  // 获取底层 Express 实例
-  expressApp = nestApp.getHttpAdapter().getInstance();
-  return nestApp;
+let serverReady = false;
+let serverPromise = null;
+
+async function startServer() {
+  if (serverReady) return;
+  if (serverPromise) return serverPromise;
+
+  serverPromise = (async () => {
+    const { createApp } = require('./dist/main');
+    const app = await createApp();
+    await app.listen(3000, '127.0.0.1');
+    serverReady = true;
+    console.log('NestJS server started on 127.0.0.1:3000');
+  })();
+
+  return serverPromise;
 }
 
-exports.handler = async (req, res, context) => {
+exports.handler = async (req, res) => {
   try {
-    await getNestApp();
-    // 直接把请求交给 Express 处理
-    expressApp(req, res);
+    await startServer();
+
+    // 把 FC 请求转发到本地 NestJS 服务
+    const bodyData = req.body;
+    const headers = { ...req.headers };
+
+    // FC 的 host 头需要改成 127.0.0.1
+    headers['host'] = '127.0.0.1:3000';
+
+    const options = {
+      hostname: '127.0.0.1',
+      port: 3000,
+      path: req.url,
+      method: req.method,
+      headers: headers,
+    };
+
+    const proxyReq = http.request(options, (proxyRes) => {
+      res.statusCode = proxyRes.statusCode || 200;
+      // 复制响应头
+      Object.keys(proxyRes.headers).forEach((key) => {
+        try {
+          res.setHeader(key, proxyRes.headers[key]);
+        } catch (e) {
+          // 忽略无法设置的头
+        }
+      });
+      res.sendHeader();
+      proxyRes.on('data', (chunk) => res.write(chunk));
+      proxyRes.on('end', () => res.end());
+    });
+
+    proxyReq.on('error', (e) => {
+      console.error('Proxy error:', e.message);
+      res.statusCode = 502;
+      res.setHeader('Content-Type', 'application/json');
+      res.sendHeader();
+      res.end(JSON.stringify({ error: 'Bad Gateway', message: e.message }));
+    });
+
+    if (bodyData) {
+      proxyReq.write(bodyData);
+    }
+    proxyReq.end();
   } catch (error) {
-    console.error('函数执行错误:', error);
+    console.error('Handler error:', error);
     res.statusCode = 500;
     res.setHeader('Content-Type', 'application/json');
-    res.end(JSON.stringify({
-      statusCode: 500,
-      message: 'Internal server error',
-      error: error.message,
-    }));
+    res.sendHeader();
+    res.end(JSON.stringify({ error: 'Internal Server Error', message: error.message }));
   }
 };

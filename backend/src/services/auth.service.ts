@@ -1,7 +1,7 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcryptjs';
-import { v4 as uuidv4 } from 'uuid';
+import { randomUUID } from 'crypto';
 import { MemoryStorageService } from './memory-storage.service';
 
 @Injectable()
@@ -25,7 +25,7 @@ export class AuthService {
     const user = this.memoryStorage.createUser({
       username,
       password: hashedPassword,
-      tenantId: uuidv4(),
+      tenantId: randomUUID(),
       role: 'merchant',
       aiCallCount: 0,
       aiCallLimit: 1000,
